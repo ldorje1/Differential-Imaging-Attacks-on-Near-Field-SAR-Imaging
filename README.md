@@ -42,4 +42,12 @@ The project provides a complete pipeline for constructing and optimizing adversa
 ---
 
 ## 📦 Repository Structure
-
+differential-sar-attack/
+│
+├── alignment/ # Range/gate alignment, α–τ estimation
+├── attack_pool/ # Construction of X_aa from r0, r1
+├── forward_models/ # MFA, RMA, BPA, CSA, LIA, etc.
+├── optimization/ # Image-domain adversarial solver
+├── models/ # Unrolled + DNN SAR reconstructors
+├── utils/ # Helpers for plotting, metrics, etc.
+└── examples/ # End-to-end attack demos
