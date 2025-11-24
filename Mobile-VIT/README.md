@@ -29,4 +29,4 @@ https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imagin
 
 ### Results 
 
-#### Mobile-VIT image generation 
+#### Mobile-VIT image generation using synthetic data (no attack)
