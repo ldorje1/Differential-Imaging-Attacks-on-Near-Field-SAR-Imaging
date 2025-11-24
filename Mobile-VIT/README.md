@@ -32,7 +32,7 @@ https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imagin
 
 ***
 
-### Results 
+### Clean Results 
 
 #### (1) Mobile-VIT image generation using synthetic data (no attack)
 The figure below shows the Mobile-VIT super-resolution model applied to a low-resolution mmWave SAR input, before performing any adversarial manipulation. Our trained weight `hffh_vit_best_epoch_050.pth` was used for this result.
@@ -41,3 +41,6 @@ The figure below shows the Mobile-VIT super-resolution model applied to a low-re
 #### (2) Mobile-VIT image generation using real measurement data (no attack)
 ![Mobile-ViT real image](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_real_output.png)
 * generated images are upside down I need fix this
+  
+***
+### Clean Results 
