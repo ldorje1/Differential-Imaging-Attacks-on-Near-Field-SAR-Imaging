@@ -27,6 +27,9 @@ when running the differential imaging attack on Mobile-ViT.
 ### Training Proof
 Below is the training log from our Mobile-ViT retraining, showing the model converging and the best epoch selected:
 
+<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_training_log.png"
+     width="400" height="400">
+
 ![Mobile-ViT Training Log](
 https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_training_log.png)
 
@@ -36,10 +39,14 @@ https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imagin
 
 #### (1) Mobile-VIT image generation using synthetic data (no attack)
 The figure below shows the Mobile-VIT super-resolution model applied to a low-resolution mmWave SAR input, before performing any adversarial manipulation. Our trained weight `hffh_vit_best_epoch_050.pth` was used for this result.
-![Mobile-ViT test image](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_test_output.png)
+
+<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_test_output.png"
+     width="400" height="400">
 
 #### (2) Mobile-VIT image generation using real measurement data (no attack)
-![Mobile-ViT real image](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_real_output.png)
+
+<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_real_output.png"
+     width="400" height="400">
 * generated images are upside down I need fix this
   
 ***
