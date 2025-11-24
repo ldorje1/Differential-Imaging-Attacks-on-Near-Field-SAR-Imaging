@@ -31,8 +31,7 @@ https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imagin
 
 #### Mobile-VIT image generation using synthetic data (no attack)
 The figure below shows the Mobile-VIT super-resolution model applied to a low-resolution mmWave SAR input, before performing any adversarial manipulation. Our trained weight `hffh_vit_best_epoch_050.pth` was used for this result.
-![Mobile-ViT Training Log](
-https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_training_log.png)
+![Mobile-ViT Training Log](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_test_output.png)
 
 
 <img src="Mobile-VIT/files/mobile_vit_test_output.png" width="900">
