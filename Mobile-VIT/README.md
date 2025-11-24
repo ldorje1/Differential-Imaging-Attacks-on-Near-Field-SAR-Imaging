@@ -18,7 +18,7 @@ when running the differential imaging attack on Mobile-ViT.
 - data/desired_attacked_complex_MFA_RMA.mat
     variable: sar_camouflaged  (H x W), complex
 - models/hffh_vit_best_epoch_050.pth
-    trained Mobile-ViT checkpoint
+    trained Mobile-ViT checkpoint 
 
 ### Training Proof
 Below is the training log from our Mobile-ViT retraining, showing the model converging and the best epoch selected:
