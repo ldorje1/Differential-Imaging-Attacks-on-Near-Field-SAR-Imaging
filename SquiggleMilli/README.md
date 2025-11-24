@@ -33,11 +33,15 @@ Training complete.
 ***
 ### Clean Results (without DIA)
 SquiggleMilli genetor results 
-
+epoch 40 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/SquiggleMilli/files/epoch_40_output.png"
      width="350" height="350">
+ 
+ epoch 100    
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/SquiggleMilli/files/epoch_100_output.png"
      width="350" height="350">
+
+epoch 300 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/SquiggleMilli/files/epoch_300_output.png"
      width="350" height="350">
 
