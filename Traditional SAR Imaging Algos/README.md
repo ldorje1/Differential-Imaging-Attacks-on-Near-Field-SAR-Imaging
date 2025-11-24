@@ -1,4 +1,4 @@
-### Differential Imaging Attack (DIA) Traditional and Advanced SAR Imaging Algorithms
+### Differential Imaging Attack (DIA) on Traditional and Advanced SAR Imaging Algorithms
 
 Our Differential Imaging Attack is applied to both classical and modern SAR image reconstruction pipelines. Traditional algorithms, including the Matched-Filter Algorithm (MFA), Range Migration Algorithm (RMA), and Back-Projection Algorithm (BPA), operate directly on time-domain or frequency-domain SAR measurements and serve as baseline reconstruction models for evaluating DIA performance.
 
