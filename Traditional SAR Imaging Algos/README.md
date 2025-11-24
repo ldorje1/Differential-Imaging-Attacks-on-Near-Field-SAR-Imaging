@@ -12,12 +12,10 @@ The following dataset files must be placed in the same directory as the MATLAB a
 | `iqData_noAtk.mat`                        | Clean IQ measurements (Nsamp × nRX × nFrame) |
 | `iqData_Atk.mat`                          | Attacked IQ measurements |
 | `rawSAR.mat`                              | Raw SAR data cube (`adcDataCube`) |
-
 | `trueImage_complex_MFA.mat`               | Clean MFA complex image |
 | `trueImage_complex_RMA.mat`               | Clean RMA complex image |
 | `trueImage_complex_BPA.mat`               | Clean BPA complex image |
 | `trueImage_complex_LIA.mat`               | Clean LIA complex image |
-
 | `desired_attacked_complex_MFA_RMA.mat`    | Desired target image for MFA/RMA spoofing attack |
 | `desired_attacked_complex_BPA_LIA.mat`    | Desired target image for BPA/LIA spoofing attack |
 
