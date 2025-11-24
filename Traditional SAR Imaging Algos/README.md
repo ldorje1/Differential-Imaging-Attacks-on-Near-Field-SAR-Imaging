@@ -4,11 +4,10 @@ Our Differential Imaging Attack (DIA) is applied to both classical and modern SA
 
 For advanced reconstruction, we include the [Lightweight Imaging Algorithm (LIA)](https://www.mdpi.com/1424-8220/22/12/4509), an iterative, matrix-based method designed for efficient, high-quality imaging under irregular or non-uniform aperture trajectories.
 
-To recreate the following the results, please run [DIA_traditional_main.m](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Traditional%20SAR%20Imaging%20Algos/DIA_traditional_main.m) 
+To reproduce the results shown below, simply run
+👉 DIA_traditional_main.m
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-sar_algo = 'RMA';  % Options: 'MFA', 'RMA', 'BPA', 'LIA' <-- SET THE ALGORITHM HERE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Inside the script, select the desired SAR reconstruction algorithm by setting:
 
 ***
 
