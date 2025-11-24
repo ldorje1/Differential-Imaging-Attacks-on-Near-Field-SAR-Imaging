@@ -19,6 +19,7 @@ when running the differential imaging attack on Mobile-ViT.
 
 *Note: The attack dictionary **D.mat** used in this implementation was generated using MATLAB.*
 
+***
 
 ### Training Proof
 Below is the training log from our Mobile-ViT retraining, showing the model converging and the best epoch selected:
@@ -26,6 +27,7 @@ Below is the training log from our Mobile-ViT retraining, showing the model conv
 ![Mobile-ViT Training Log](
 https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_training_log.png)
 
+***
 
 ### Results 
 
