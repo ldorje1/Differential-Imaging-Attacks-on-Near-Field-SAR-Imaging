@@ -23,8 +23,9 @@ Training complete.
 
 ***
 ### Clean Results (without DIA)
-GAN genetor results 
+SquiggleMilli genetor results 
 
+![squiggle_epoch_60](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/SquiggleMilli/files/epoch_60_output.png)
 
 
 
