@@ -15,7 +15,7 @@ when running the differential imaging attack on Mobile-ViT.
 - models/hffh_vit_best_epoch_050.pth
     trained Mobile-ViT checkpoint
 
-*Note: The attack dictionary **D** used in this implementation was generated using MATLAB.*
+*Note: The attack dictionary **D.mat** used in this implementation was generated using MATLAB.*
 
 
 ### Training Proof
