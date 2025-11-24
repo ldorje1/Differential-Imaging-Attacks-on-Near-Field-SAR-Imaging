@@ -1,3 +1,3 @@
-# SquiggleMilli Module
+### SquiggleMilli 
 
-This folder contains code and utilities related to the SquiggleMilli SAR model.
+Our proposed differential imaging attack is applied to the SquiggleMilli model introduced in the paper
