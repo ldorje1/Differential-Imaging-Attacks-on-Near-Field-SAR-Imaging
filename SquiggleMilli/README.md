@@ -11,13 +11,22 @@ Our proposed differential imaging attack (DIA) is applied to the SquiggleMilli m
 Below is the final part of the training log from our SquiggleMilli model retraining.  This confirms successful convergence and checkpoint saving during the last epochs:
 
 ```text
-Saved checkpoints for epoch 97 to models/
-Epoch 98/100 | D loss: 0.5103 | G loss: 36.8397
-Saved checkpoints for epoch 98 to models/
-Epoch 99/100 | D loss: 0.5102 | G loss: 36.6664
-Saved checkpoints for epoch 99 to models/
-Epoch 100/100 | D loss: 0.5101 | G loss: 36.5011
-Saved checkpoints for epoch 100 to models/
+Epoch 293/300 | D loss: 0.5008 | G loss: 21.2852
+Saved checkpoints for epoch 293 to models/
+Epoch 294/300 | D loss: 0.5008 | G loss: 21.2618
+Saved checkpoints for epoch 294 to models/
+Epoch 295/300 | D loss: 0.5008 | G loss: 21.2437
+Saved checkpoints for epoch 295 to models/
+Epoch 296/300 | D loss: 0.5008 | G loss: 21.2278
+Saved checkpoints for epoch 296 to models/
+Epoch 297/300 | D loss: 0.5008 | G loss: 21.2104
+Saved checkpoints for epoch 297 to models/
+Epoch 298/300 | D loss: 0.5008 | G loss: 21.1962
+Saved checkpoints for epoch 298 to models/
+Epoch 299/300 | D loss: 0.5008 | G loss: 21.1856
+Saved checkpoints for epoch 299 to models/
+Epoch 300/300 | D loss: 0.5008 | G loss: 21.1712
+Saved checkpoints for epoch 300 to models/
 Training complete.
 ```
 
