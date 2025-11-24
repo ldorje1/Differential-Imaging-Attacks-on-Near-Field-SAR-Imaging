@@ -11,7 +11,7 @@ Inside the script, select the desired SAR reconstruction algorithm by setting: s
 
 ***
 
-### Files Required for Attack Implementation
+### Attack Implementation
 The following dataset files must be placed in the same directory as the MATLAB attack script.
 | File Name                                 | Description |
 |-------------------------------------------|-------------|
