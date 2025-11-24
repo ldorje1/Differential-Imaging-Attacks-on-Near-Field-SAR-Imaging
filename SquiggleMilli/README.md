@@ -23,6 +23,10 @@ Training complete.
 
 ***
 ### Clean Results (without DIA)
+GAN genetor results 
+
+
+
 
 ***
 
