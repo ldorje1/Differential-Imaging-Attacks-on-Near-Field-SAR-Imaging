@@ -19,6 +19,9 @@ The following dataset files must be placed in the same directory as the MATLAB a
 | `desired_attacked_complex_MFA_RMA.mat`    | Desired target image for MFA/RMA spoofing attack |
 | `desired_attacked_complex_BPA_LIA.mat`    | Desired target image for BPA/LIA spoofing attack |
 
+> ⚠️ **Important:**  
+> The *same* desired target (camouflage) image is used for all algorithms — MFA, RMA, BPA, and LIA.  
+> Only the clean reconstruction differs across algorithms.
 
 ***
 
