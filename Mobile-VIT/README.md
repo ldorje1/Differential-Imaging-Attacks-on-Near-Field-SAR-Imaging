@@ -5,6 +5,8 @@ Since the original Mobile-ViT SAR model does not publicly provide trained weight
 we re-trained the network following the methodology described in the paper. Please use our provided checkpoint: **`hffh_vit_best_epoch_050.pth`**
 when running the differential imaging attack on Mobile-ViT.
 
+***
+
 ### Files Needed for attack 
 - data/rawSAR.mat
     variable: adcDataCube   (Nsamp x M x N), complex
