@@ -34,9 +34,7 @@ The figure below shows the baseline reconstructions produced by the traditional 
 
 ***
 ### Atttack Results 
-
-The DIA optimization uses algorithm-specific learning rates (300 iterations for MFA/RMA/LIA, and 10 iterations for BPA) with
-lr_re, lr_im ∈ {1e2, 1e3}, an L2 penalty of 1e-4, and a hard magnitude cap of A_max = 2.
+The figure below shows the final adversarially manipulated SAR reconstructions obtained using our Differential Imaging Attack (DIA) across all four imaging algorithms—MFA, RMA, BPA, and LIA. The DIA optimization uses algorithm-specific learning rates (300 iterations for MFA/RMA/LIA, and 10 iterations for BPA) with lr_re, lr_im ∈ {1e2, 1e3}, an L2 penalty of 1e-4, and a hard magnitude cap of A_max = 2.
  
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Traditional%20SAR%20Imaging%20Algos/files/MFA_RMA_BPA_LIA_attacked.png"
      width="800" height="800">
