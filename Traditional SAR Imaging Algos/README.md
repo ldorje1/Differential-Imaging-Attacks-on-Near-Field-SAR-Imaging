@@ -1,6 +1,5 @@
-### Traditional and avdanced alogrithm SAR Imaging Algorithms 
-Matched-Filter Algorithm 
-Range mogration Algorithm 
-Backprogation Algorithm 
+### Traditional and Advanced SAR Imaging Algorithms
+our Differential Imaging Attack (DIA) is applied to  both classical and modern SAR image reconstruction pipelines. Traditional Algorithms
 
-### Advanced algorithm LIA  
+such as Matched-Filter Algorithm (MFA), Range Migration Algorithm (RMA), and Back-Projection Algorithm (BPA). These classical methods operate directly on time-domain or frequency-domain SAR measurements and serve as the baseline reconstruction models against which DIA performance is assessed.
+Advanced Algorithm such as Lightweight Imaging Algorithm (LIA) is an iterative, matrix-based reconstruction method designed for efficient, high-quality imaging under irregular or non-uniform aperture trajectories.
