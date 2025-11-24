@@ -5,16 +5,15 @@ Our Differential Imaging Attack (DIA) is applied to both classical and modern SA
 For advanced reconstruction, we include the [Lightweight Imaging Algorithm (LIA)](https://www.mdpi.com/1424-8220/22/12/4509), an iterative, matrix-based method designed for efficient, high-quality imaging under irregular or non-uniform aperture trajectories.
 ***
 ### Files required for attack implementation
-│── iqData_noAtk.mat
-│── iqData_Atk.mat
-│── rawSAR.mat
-│── trueImage_complex_MFA.mat
-│── trueImage_complex_RMA.mat
-│── trueImage_complex_BPA.mat
-│── trueImage_complex_LIA.mat
-│── desired_attacked_complex_MFA_RMA.mat
-│── desired_attacked_complex_BPA_LIA.mat
-
+data/iqData_noAtk.mat
+data/iqData_Atk.mat
+data/rawSAR.mat
+data/trueImage_complex_MFA.mat
+data/trueImage_complex_RMA.mat
+data/trueImage_complex_BPA.mat
+data/trueImage_complex_LIA.mat
+data/desired_attacked_complex_MFA_RMA.mat
+data/desired_attacked_complex_BPA_LIA.mat
 
 ***
 
