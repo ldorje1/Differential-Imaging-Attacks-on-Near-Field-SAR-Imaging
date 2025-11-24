@@ -12,7 +12,7 @@ Inside the script, select the desired SAR reconstruction algorithm by setting: s
 ***
 
 ### Attack Implementation
-The following dataset files must be placed in the same directory as the MATLAB attack script.
+To Run the full imaplimentatioan, following dataset files, which can be found in data folder, must be placed in the same directory as the MATLAB attack script.
 | File Name                                 | Description |
 |-------------------------------------------|-------------|
 | `iqData_noAtk.mat`                        | Clean IQ measurements (Nsamp × nRX × nFrame) |
