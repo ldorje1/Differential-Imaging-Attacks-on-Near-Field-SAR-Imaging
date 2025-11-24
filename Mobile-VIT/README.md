@@ -10,6 +10,7 @@ Please use our provided checkpoint:
 
 when running the differential imaging attack on Mobile-ViT.
 
+https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_training_log.png
 
 - data/rawSAR.mat
     variable: adcDataCube   (Nsamp x M x N), complex
