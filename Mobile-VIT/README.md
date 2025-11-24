@@ -12,6 +12,12 @@ when running the differential imaging attack on Mobile-ViT.
 
 https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_training_log.png
 
+### Training Proof
+Below is the training log from our Mobile-ViT retraining, showing the model converging and the best epoch selected:
+
+![Mobile-ViT Training Log](
+https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_training_log.png)
+
 - data/rawSAR.mat
     variable: adcDataCube   (Nsamp x M x N), complex
 - data/D.mat
