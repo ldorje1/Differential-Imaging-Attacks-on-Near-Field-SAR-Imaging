@@ -6,7 +6,7 @@ For advanced reconstruction, we include the [Lightweight Imaging Algorithm (LIA)
 
 ***
 
-### Attack Implementation (for reproduction)
+### Attack Implementation for Reproducibility
 For the full DIA attack implementation, the following dataset files (available in the data folder) must be placed in the same directory as the main MATLAB attack script. Inside the script, select the desired SAR reconstruction algorithm by setting
 sar_algo = 'RMA'; % MFA | RMA | BPA | LIA
 | File Name                                 | Description |
