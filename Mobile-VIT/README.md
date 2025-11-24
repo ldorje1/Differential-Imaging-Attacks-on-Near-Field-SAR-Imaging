@@ -10,14 +10,7 @@ Please use our provided checkpoint:
 
 when running the differential imaging attack on Mobile-ViT.
 
-https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_training_log.png
-
-### Training Proof
-Below is the training log from our Mobile-ViT retraining, showing the model converging and the best epoch selected:
-
-![Mobile-ViT Training Log](
-https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_training_log.png)
-
+### Files Needed for attack 
 - data/rawSAR.mat
     variable: adcDataCube   (Nsamp x M x N), complex
 - data/D.mat
@@ -26,3 +19,11 @@ https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imagin
     variable: sar_camouflaged  (H x W), complex
 - models/hffh_vit_best_epoch_050.pth
     trained Mobile-ViT checkpoint
+
+### Training Proof
+Below is the training log from our Mobile-ViT retraining, showing the model converging and the best epoch selected:
+
+![Mobile-ViT Training Log](
+https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/mobile_vit_training_log.png)
+
+
