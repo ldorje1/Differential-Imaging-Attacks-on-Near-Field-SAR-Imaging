@@ -4,6 +4,8 @@ Our Differential Imaging Attack is applied to both classical and modern SAR imag
 
 For advanced reconstruction, we include the [Lightweight Imaging Algorithm (LIA)](https://ieeexplore.ieee.org/abstract/document/9362213), an iterative, matrix-based method designed for efficient, high-quality imaging under irregular or non-uniform aperture trajectories.
 
+*One thing to note is that backpropagating through the full LIA operator was very slow because of its iterative nature. Therefore, for LIA we compute gradients using a linear BPA surrogate built from the same propagation matrix H, while the final attacked image is always reconstructed using the full LIA algorithm. I do not know if a trick like this is acceptable in terms of calculating gradients and attacking.*
+
 ***
 
 ### Attack Implementation for Reproducibility
