@@ -2,12 +2,7 @@ Our proposed differential imaging attack is applied to the Mobile-VIT model intr
 [“A Vision Transformer Approach for Efficient Near-Field Irregular SAR Super-Resolution.”](https://arxiv.org/pdf/2305.02074)
 
 Since the original Mobile-ViT SAR model does not publicly provide trained weights,  
-we re-trained the network following the methodology described in the paper.
-
-Please use our provided checkpoint:
-
-**`hffh_vit_best_epoch_050.pth`**
-
+we re-trained the network following the methodology described in the paper. Please use our provided checkpoint: **`hffh_vit_best_epoch_050.pth`**
 when running the differential imaging attack on Mobile-ViT.
 
 ### Files Needed for attack 
@@ -18,7 +13,10 @@ when running the differential imaging attack on Mobile-ViT.
 - data/desired_attacked_complex_MFA_RMA.mat
     variable: sar_camouflaged  (H x W), complex
 - models/hffh_vit_best_epoch_050.pth
-    trained Mobile-ViT checkpoint 
+    trained Mobile-ViT checkpoint
+
+*Note: The attack dictionary **D** used in this implementation was generated using MATLAB.*
+
 
 ### Training Proof
 Below is the training log from our Mobile-ViT retraining, showing the model converging and the best epoch selected:
