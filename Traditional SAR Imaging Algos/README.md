@@ -19,7 +19,7 @@ sar_algo = 'RMA'; % MFA | RMA | BPA | LIA
 |-------------------------------------------|-------------|
 | `iqData_noAtk.mat`                        | Clean IQ measurements (Nsamp × nRX × nFrame) |
 | `iqData_Atk.mat`                          | Attacked IQ measurements |
-| `rawSAR.mat`                              | Raw SAR data cube (`adcDataCube`) |
+| `rawSAR.mat`                              | Raw SAR data cube (`adcDataCube`) (Nsamp x X_axis x Y_axis)|
 | `trueImage_complex_MFA.mat`               | Clean MFA complex image |
 | `trueImage_complex_RMA.mat`               | Clean RMA complex image |
 | `trueImage_complex_BPA.mat`               | Clean BPA complex image |
