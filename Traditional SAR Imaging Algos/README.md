@@ -4,16 +4,22 @@ Our Differential Imaging Attack (DIA) is applied to both classical and modern SA
 
 For advanced reconstruction, we include the [Lightweight Imaging Algorithm (LIA)](https://www.mdpi.com/1424-8220/22/12/4509), an iterative, matrix-based method designed for efficient, high-quality imaging under irregular or non-uniform aperture trajectories.
 ***
-### Files required for attack implementation
-│── iqData_noAtk.mat                   # Clean IQ measurements
-│── iqData_Atk.mat                     # Attacked IQ measurements
-│── rawSAR.mat                         # Raw SAR data cube (adcDataCube)
-│── trueImage_complex_MFA.mat          # Clean MFA image (complex)
-│── trueImage_complex_RMA.mat          # Clean RMA image (complex)
-│── trueImage_complex_BPA.mat          # Clean BPA image (complex)
-│── trueImage_complex_LIA.mat          # Clean LIA image (complex)
-│── desired_attacked_complex_MFA_RMA.mat  # Target image for MFA/RMA attack
-│── desired_attacked_complex_BPA_LIA.mat  # Target image for BPA/LIA attack
+
+### Files Required for Attack Implementation
+The following dataset files must be placed in the same directory as the MATLAB attack script.
+| File Name                                 | Description |
+|-------------------------------------------|-------------|
+| `iqData_noAtk.mat`                        | Clean IQ measurements (Nsamp × nRX × nFrame) |
+| `iqData_Atk.mat`                          | Attacked IQ measurements |
+| `rawSAR.mat`                              | Raw SAR data cube (`adcDataCube`) |
+
+| `trueImage_complex_MFA.mat`               | Clean MFA complex image |
+| `trueImage_complex_RMA.mat`               | Clean RMA complex image |
+| `trueImage_complex_BPA.mat`               | Clean BPA complex image |
+| `trueImage_complex_LIA.mat`               | Clean LIA complex image |
+
+| `desired_attacked_complex_MFA_RMA.mat`    | Desired target image for MFA/RMA spoofing attack |
+| `desired_attacked_complex_BPA_LIA.mat`    | Desired target image for BPA/LIA spoofing attack |
 
 
 ***
