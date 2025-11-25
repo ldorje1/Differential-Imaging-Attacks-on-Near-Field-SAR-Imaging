@@ -43,9 +43,7 @@ The following are generated images from the original paper (re-arranged for clar
 
 ***
 
-### UPDATES
-
-### Update: Improved Optimization of Complex Gains for the Deep2S Attack
+### CHANGES: Improved Optimization of Complex Gains for the Deep2S Attack
 
 For the Deep2S attack, we updated how the complex gains **Aₚ** are optimized to make the attack more stable and better behaved under the amplitude constraint **|Aₚ| ≤ A_max**.
 
