@@ -39,6 +39,7 @@ The figure below shows the baseline reconstructions produced by the traditional 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Traditional%20SAR%20Imaging%20Algos/files/MFA_RMA_BPA_LIA_clean.png"
      width="800" height="800">
 
+⚠️ BPA and LIA images appear blocky because they were generated at 50×50 resolution to reduce the computational cost of forming the H matrix, whereas MFA and RMA images were reconstructed at 401×401 resolution.
 
 ***
 ### Atttack Results 
