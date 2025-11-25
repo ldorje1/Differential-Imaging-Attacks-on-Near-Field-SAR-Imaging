@@ -47,8 +47,6 @@ The following are generated images from the original paper (re-arranged for clar
 
 For the Deep2S attack, we updated how the complex gains **Aₚ** are optimized to make the attack more stable and better behaved under the amplitude constraint **|Aₚ| ≤ A_max**.
 
----
-
 #### **Old Version (Baseline Approach)**
 
 The original implementation optimized the real and imaginary parts of the gains directly:
@@ -69,8 +67,6 @@ This approach caused:
 - Oscillatory or unstable loss behavior  
 - Sensitivity to learning-rate choice and abrupt clipping  
 
----
-
 #### **New Version (Current Implementation)**
 
 We now optimize unconstrained latent variables **Z_re**, **Z_im**, and map them smoothly into **A**:
@@ -88,7 +84,6 @@ Key improvements:
 - An L2-regularization term keeps the optimizer from trivially pushing all amplitudes toward A_max.  
 - The attack converges more smoothly and uses power more coherently across apertures.
 
----
 
 #### **Summary of the Change**
 
