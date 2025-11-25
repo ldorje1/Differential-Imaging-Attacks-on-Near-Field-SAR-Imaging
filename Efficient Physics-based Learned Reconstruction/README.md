@@ -2,8 +2,7 @@ Our proposed differential imaging attack (DIA) is applied to three models (CV-De
 
 ***
 ### Three 3D U-Net-based Models from the original paper 
-#### Deep2S 
-Deep2S is a two-stage, physics-guided learned reconstruction network for 3D near-field MIMO radar imaging.
+*Deep2S*: Deep2S is a two-stage, physics-guided learned reconstruction network for 3D near-field MIMO radar imaging.
 - Stage 1: Applies the adjoint operator A^H to map raw complex measurements into an intermediate 3D image volume.
 
 - Stage 2: A 3D U-Net refines this intermediate image to suppress artifacts from sparse frequency and antenna sampling.
@@ -13,9 +12,7 @@ Deep2S is a two-stage, physics-guided learned reconstruction network for 3D near
 
 - Achieves higher PSNR than Deep2S but much lower SSIM, and generates more artifacts (especially along the z-axis).
 
-#### Deep2S+
-Deep2S+ is an enhanced, fully trainable hybrid version of Deep2S.
-Key upgrades:
+*Deep2S+*: Deep2S+ is an enhanced, fully trainable hybrid version of Deep2S. Key upgrades:
 
 - Replaces the fixed adjoint operator A^H with a trainable complex-valued projection layer initialized using A^H (physics-based warm start).
 
