@@ -27,6 +27,8 @@ sar_algo = 'RMA'; % MFA | RMA | BPA | LIA
 | `desired_attacked_complex_MFA_RMA.mat`    | Desired target image for MFA/RMA spoofing attack |
 | `desired_attacked_complex_BPA_LIA.mat`    | Desired target image for BPA/LIA spoofing attack |
 
+> Clean and attacked complex images are generated in MATLAB using the files in this [folder](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/tree/main/Traditional%20SAR%20Imaging%20Algos/extra).
+
 > ⚠️ **Important:**  
 > The *same* desired target (camouflage) image is used for all algorithms — MFA, RMA, BPA, and LIA.  
 > Only the clean reconstruction differs across algorithms.
