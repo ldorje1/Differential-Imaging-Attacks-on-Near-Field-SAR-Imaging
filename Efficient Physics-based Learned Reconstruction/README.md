@@ -8,6 +8,9 @@ Our proposed differential imaging attack (DIA) is applied to three models (CV-De
 
 2. We use the raw measurement data provided by the paper (instead of our own) because the predefined propagation matrix **A** used by all models is derived from the original measurement environment.
 
+3. Our baseline experimental attack dictionary `D_flat.npy` was computed and preprocessed in MATLAB to meet the model requirements.
+
+
 
 
 
