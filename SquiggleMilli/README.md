@@ -8,6 +8,8 @@ Our proposed differential imaging attack (DIA) is applied to the SquiggleMilli m
 
 ***
 ### Re-Training Proof
+The model is re-trained using our synthetic dataset from *'MilliSARImageNet: A 2D High-Resolution Millimeter-Wave SAR Image Dataset'*.
+
 Below is the final part of the training log from our SquiggleMilli model retraining.  This confirms successful convergence and checkpoint saving during the last epochs:
 
 ```text
