@@ -16,9 +16,6 @@ CV-Deep2S is a variant of Deep2S that processes the intermediate reconstruction 
 
 - Achieves higher PSNR than Deep2S but much lower SSIM, and generates more artifacts (especially along the z-axis).
 
-The paper concludes that complex-valued refinement does not improve image quality compared to magnitude-only processing.
-
-
 #### Deep2S+
 Deep2S+ is an enhanced, fully trainable hybrid version of Deep2S.
 Key upgrades:
@@ -27,9 +24,7 @@ Key upgrades:
 
 - Still uses the 3D U-Net from Deep2S in stage 2, but further fine-tunes both stages jointly.
 
-Produces higher PSNR/SSIM than Deep2S and reduces z-axis under-sampling artifacts, though sometimes slightly over-smooths.
-Deep2S+ shows that learning the physics projection + learning the refinement gives the best overall reconstruction quality.
-
+- Produces higher PSNR/SSIM than Deep2S and reduces z-axis under-sampling artifacts, though sometimes slightly over-smooths.
 
 ***
 
