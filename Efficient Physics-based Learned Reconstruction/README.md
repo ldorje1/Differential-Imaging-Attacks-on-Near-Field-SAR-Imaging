@@ -27,7 +27,7 @@ Key upgrades:
 
 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/efficient_physics_clean.png"
-     width="800" height="800">
+     width="400" height="400">
 
 
 
