@@ -1,15 +1,13 @@
 Our proposed differential imaging attack (DIA) is applied to three models (CV-Deep2S, Deep2S, Deep2S+) introduced in the paper: "[Efficient Physics-Based Learned Reconstruction Methods for Real-Time 3D Near-Field MIMO Radar Imaging](https://www.sciencedirect.com/science/article/abs/pii/S105120042300369X)".
 ***
-### Files Required for the Attack Implementation 
+### Files Required for the Attack Implementation
 
+**Note:**
 
+1. The experimental measurement data `y_exp_test_4.npy` is first preprocessed according to the requirements of the three models. The preprocessing follows the procedure described in the original paper’s GitHub repository.
 
+2. We use the raw measurement data provided by the paper (instead of our own) because the predefined propagation matrix **A** used by all models is derived from the original measurement environment.
 
-
-Note:
-(1) The experimental measurement data `y_exp_test_4.npy` is first preprocessed according to the requirements of the three models. The data preprocessing follows the method provided in the original paper’s GitHub repository.
-
-(2) We use the raw measurement data provided by the paper (instead of our own) because the predefined propagation matrix **A** used by all models is derived from the original measurement environment.
 
 
 
