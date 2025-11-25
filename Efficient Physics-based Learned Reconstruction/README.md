@@ -56,6 +56,7 @@ For the Deep2S attack, we updated how the complex gains **Aₚ** are optimized t
 The original implementation optimized the real and imaginary parts of the gains directly:
 
 A_re ← A_re − η_re * ∇{A_re} L
+
 A_im ← A_im − η_im * ∇{A_im} L
 
 
