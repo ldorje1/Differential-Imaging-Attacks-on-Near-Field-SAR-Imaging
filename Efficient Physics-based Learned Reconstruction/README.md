@@ -8,9 +8,7 @@ Deep2S is a two-stage, physics-guided learned reconstruction network for 3D near
 
 - Stage 2: A 3D U-Net refines this intermediate image to suppress artifacts from sparse frequency and antenna sampling.
 
-#### CV-Deep2S (Complex-Valued Deep2S)
-
-CV-Deep2S is a variant of Deep2S that processes the intermediate reconstruction in complex-valued form (real + imaginary channels) instead of magnitude.
+*CV-Deep2S (Complex-Valued Deep2S)*: CV-Deep2S is a variant of Deep2S that processes the intermediate reconstruction in complex-valued form (real + imaginary channels) instead of magnitude.
 - Uses complex-valued layers to refine both real and imaginary parts.
 
 - Achieves higher PSNR than Deep2S but much lower SSIM, and generates more artifacts (especially along the z-axis).
