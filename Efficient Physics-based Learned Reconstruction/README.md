@@ -1,7 +1,6 @@
 Our proposed differential imaging attack (DIA) is applied to three models (CV-Deep2S, Deep2S, Deep2S+) introduced in the paper: "[Efficient Physics-Based Learned Reconstruction Methods for Real-Time 3D Near-Field MIMO Radar Imaging](https://www.sciencedirect.com/science/article/abs/pii/S105120042300369X)".
 
-
-
+***
 ### Three 3D U-Net-based Models 
 #### Deep2S 
 Deep2S is a two-stage, physics-guided learned reconstruction network for 3D near-field MIMO radar imaging.
