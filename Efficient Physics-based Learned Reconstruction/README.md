@@ -72,6 +72,7 @@ This approach caused:
 We now optimize unconstrained latent variables **Z_re**, **Z_im**, and map them smoothly into **A**:
 
 A_re = (A_max / 2) * tanh(Z_re)
+
 A_im = (A_max / 2) * tanh(Z_im)
 
 
