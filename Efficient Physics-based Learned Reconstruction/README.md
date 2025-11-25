@@ -5,6 +5,14 @@ Our proposed differential imaging attack (DIA) is applied to three models (CV-De
 
 
 
+
+Note:
+(1) The experimental measurement data `y_exp_test_4.npy` is first preprocessed according to the requirements of the three models. The data preprocessing follows the method provided in the original paper’s GitHub repository.
+
+(2) We use the raw measurement data provided by the paper (instead of our own) because the predefined propagation matrix **A** used by all models is derived from the original measurement environment.
+
+
+
 ***
 ### Three 3D U-Net-based Models from the original paper 
 *Deep2S*: Deep2S is a two-stage, physics-guided learned reconstruction network for 3D near-field MIMO radar imaging.
