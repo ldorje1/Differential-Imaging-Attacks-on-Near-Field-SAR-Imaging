@@ -139,11 +139,12 @@ Attacked vs Target (ROI): 7.0700e-01
 ```
 ***
 # (2) DIA on CVDeep2S
-🛠️ **(1) Global Loss (Full-Image Attack):**
+🛠️ **(1) Global Loss (Full-Image Attack) Result:** 
 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/full_image_attacked_cvdeep2s.png"
      width="600" height="600">
-🛠️ **(2) ROI Loss (Object-Focused Attack):**
+
+🛠️ **(2) ROI Loss (Object-Focused Attack): Result**
 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/roi_image_CVdeep2s.png"
      width="600" height="600">
