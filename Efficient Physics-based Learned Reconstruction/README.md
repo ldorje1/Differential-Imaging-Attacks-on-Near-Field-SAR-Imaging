@@ -4,10 +4,10 @@
 Our proposed Differential Imaging Attack (DIA) is applied to the three models (CV-Deep2S, Deep2S, Deep2S+) introduced in the paper: "[Efficient Physics-Based Learned Reconstruction Methods for Real-Time 3D Near-Field MIMO Radar Imaging](https://www.sciencedirect.com/science/article/abs/pii/S105120042300369X)".
 ***
 ### Files Required for the Attack Implementation
-Please use DIA_Deep2S.py, DIA_CVDeep2S.py, or DIA_Deep2S+.py to implement DIA. All required files for the corresponding models can be downloaded from:👉 **[Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P)**.
+Use DIA_Deep2S.py, DIA_CVDeep2S.py, or DIA_Deep2S+.py to run the attack. All required files for the corresponding models can be downloaded from:👉 **[Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P)**.
 
 
-The following files must be placed in the working directory before running the Deep2S / Deep2S+ / CV-Deep2S attack scripts:
+Place all of the following files in the working directory before running any DIA script:
 
 | File | Description |
 |------|-------------|
@@ -18,16 +18,16 @@ The following files must be placed in the working directory before running the D
 | **src.py** | Main inference/attack routines (method definitions for preprocessing, projection layer, and forward pass). |
 | **misc.py** | Utility functions used by the model (normalization, FFT helpers, padding, etc.). |
 
-**Note:**
+**📌 Note:**
 
-1. The experimental measurement data `y_exp_test_4.npy` is first preprocessed in MATLAB according to the requirements of the three models. The preprocessing follows the procedure described in the original paper’s GitHub repository.
+1. `y_exp_test_4.npy` is first preprocessed in MATLAB according to the Deep2S / CV-Deep2S / Deep2S+ pipeline. This follows the procedure described in the original authors’ GitHub.
 
-2. We use the raw measurement data (to generated `y_exp_test_4.npy`) provided by the paper (instead of our own) because the predefined propagation matrix **A** used by all models is derived from the original measurement environment.
+2. We use the original experimental measurement (not our own) because the propagation matrix A was computed from the original measurement environment, and is not compatible with other systems.
 
-3. Our baseline experimental attack dictionary `D_flat.npy` was computed and preprocessed in MATLAB to meet the model requirements.
+3. Our attack dictionary `D_flat.npy` was computed and preprocessed in MATLAB to meet the model’s dimensional and normalization requirements.
 
 ***
-### Three 3D U-Net-based Models from the Original Paper (for reference) 
+### hree 3D U-Net Models From the Paper (Reference)
 *Deep2S*: Deep2S is a two-stage, physics-guided learned reconstruction network for 3D near-field MIMO radar imaging.
 - Stage 1: Applies the adjoint operator A^H to map raw complex measurements into an intermediate 3D image volume.
 
@@ -46,7 +46,7 @@ The following files must be placed in the working directory before running the D
 
 - Produces higher PSNR/SSIM than Deep2S and reduces z-axis under-sampling artifacts, though sometimes slightly over-smooths.
 
-The following are generated images from the original paper (re-arranged for clarity).
+Example Images from the Original Paper (re-arranged for clarity).
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/efficient_physics_clean.png"
      width="400" height="400">
 
