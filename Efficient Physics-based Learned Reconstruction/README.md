@@ -53,6 +53,17 @@ Example Images from the Original Paper (re-arranged for clarity).
 
 ***
 ### DIA on the Models 
+For each model (Deep2S, CV-Deep2S, Deep2S+), we implement two variants of the differential imaging attack, depending on where the loss is computed:
+
+(1) Global Loss (Full-Image Attack) :The L1 loss is computed over all pixels in the reconstructed image. This forces the attack to globally reshape the entire SAR volume toward the target. Stronger but more power-demanding; produces large structural changes.
+
+L_global = || I_attacked  –  I_target ||_1   (all pixels)
+
+(2) ROI Loss (Object-Focused Attack): The L1 loss is computed only inside a predefined Region of Interest (ROI). The ROI corresponds to where the main object or target is located. This yields: Lower required perturbation power, more localized edits and minimal distortion outside the object region. 
+
+L_ROI = || I_attacked[ROI]  –  I_target[ROI] ||_1
+
+
 
 ```text
 Iter   1/300 | Loss=1.754532e+00 | loss_im=1.754532e+00 | reg=3.843202e-11 | mean|A|=1.966e-01, max|A|=2.013e-01
