@@ -27,7 +27,7 @@ Place all of the following files in the working directory before running any DIA
 3. Our attack dictionary `D_flat.npy` was computed and preprocessed in MATLAB to meet the model’s dimensional and normalization requirements.
 
 ***
-### hree 3D U-Net Models From the Paper (Reference)
+### Three 3D U-Net Models From the Paper (Reference)
 *Deep2S*: Deep2S is a two-stage, physics-guided learned reconstruction network for 3D near-field MIMO radar imaging.
 - Stage 1: Applies the adjoint operator A^H to map raw complex measurements into an intermediate 3D image volume.
 
