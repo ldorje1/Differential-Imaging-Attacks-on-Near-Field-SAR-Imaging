@@ -2,7 +2,8 @@ Our proposed differential imaging attack (DIA) is applied to three models (CV-De
 ***
 ### Files Required for the Attack Implementation
 All required files for correspoding models can be downloaded from [Gooogle Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P). 
-The following files must be placed in the working directory (or in the specified `/files` folder) before running the Deep2S / Deep2S+ / CV-Deep2S attack scripts:
+
+The following files must be placed in the working directory before running the Deep2S / Deep2S+ / CV-Deep2S attack scripts:
 
 | File | Description |
 |------|-------------|
