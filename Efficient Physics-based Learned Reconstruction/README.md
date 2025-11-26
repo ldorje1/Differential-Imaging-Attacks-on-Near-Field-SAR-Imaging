@@ -43,8 +43,34 @@ The following are generated images from the original paper (re-arranged for clar
 
 ***
 
-### CHANGES: Improved Optimization of Complex Gains for the Deep2S Attack
-[Click here to view the PDF](Efficient%20Physics-based%20Learned%20Reconstruction/files/implementation_update.pdf)
+### 🔧 Summary of Changes: Deep2S Attack Optimization Update
+
+We updated the optimization strategy for the complex gains **Aₚ** in the Deep2S Differential Imaging Attack (DIA) to improve stability and behavior under the physical amplitude constraint **|Aₚ| ≤ A_max**.
+
+#### **Old Method (Baseline)**
+- Optimized the real and imaginary parts of A directly using gradient descent.
+- Applied **hard clipping** after each update: if |Aₚ| > A_max, rescale back to the boundary.
+- Resulted in:
+  - Many gains stuck at |Aₚ| = A_max  
+  - Unstable or oscillatory loss  
+  - Sensitivity to step sizes and abrupt clipping
+
+#### **New Method (Current Implementation)**
+- Introduced **latent variables** Z_re and Z_im, optimized *unconstrained*.
+- Mapped them to A using a smooth tanh transformation:
+  - Ensures **|Aₚ| ≤ A_max** automatically (no clipping needed)
+  - Provides smoother gradients near the constraint boundary
+- Replaced manual gradient descent with **Adam** for adaptive and stable updates.
+- Added an **L2 penalty** on |A| to prevent trivial max-amplitude solutions and encourage structured use of the power budget.
+- Backpropagation now differentiates through the tanh mapping using the chain rule.
+
+#### **Outcome**
+- Optimization is significantly more stable.
+- No more abrupt clipping or saturation at A_max.
+- Better gradient flow and smoother convergence.
+- The attack produces more consistent and physically realistic perturbations.
+
+
 
 
 
