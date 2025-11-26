@@ -4,3 +4,24 @@
 Our proposed Differential Imaging Attack (DIA) is applied to the sparse imaging method: Sparsity Bayesian
 Recovery via Iterative Minimum (SBRIM) introduced in the paper: [Sparse autofocus via Bayesian learning iterative maximum and applied for LASAR 3-D imaging](https://ieeexplore.ieee.org/document/6875674 ). 
 
+CSA method introduce in the paper is a sparse SAR imaging method that uses an explicit physics-based forward model 𝐻 and an iterative optimization solver (SBRIM) to reconstruct the scene. Instead of simple matched filtering, it searches for a reflectivity image that both fits the measured data and is sparse, which typically gives sharper targets and lower clutter/sidelobes, especially under limited or noisy apertures.
+
+***
+## Files Required for the Attack Implementation
+| File Name                                   | Description |
+|---------------------------------------------|-------------|
+| `rawSAR.mat`                                | Raw SAR ADC data cube (`adcDataCube`, size: Nsamp × X_axis × Y_axis) used as the input to CSA |
+| `trueImage_complex_CSA.mat`                 | Clean CSA complex reconstruction image (`trueImage_complx_csa`, size: B_pixels × A_pixels) |
+| `desired_attacked_complex_CSA.mat`          | Target camouflage image for the CSA spoofing attack (`sar_camouflaged`) |
+| `iqData_noAtk.mat`                          | Clean IQ measurements used to extract clean attack signatures |
+| `iqData_Atk.mat`                            | Attacked IQ measurements used to construct the CSA attack dictionary |
+
+
+
+***
+## Clean Results (without DI-Attack)
+
+
+
+***
+## Atttack Results 
