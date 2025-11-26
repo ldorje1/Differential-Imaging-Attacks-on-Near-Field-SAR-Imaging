@@ -54,7 +54,7 @@ Example Images from the Original Paper (re-arranged for clarity).
 
 
 ***
-### DIA on the Models 
+### DIA on Deep2S 
 For each model (Deep2S, CV-Deep2S, Deep2S+), we implement two variants of the differential imaging attack, depending on where the loss is computed:
 
 (1) Global Loss (Full-Image Attack) :The L2 loss is computed over all pixels in the reconstructed image. This forces the attack to globally reshape the entire SAR volume toward the target. Stronger but more power-demanding; produces large structural changes.
