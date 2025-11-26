@@ -74,7 +74,7 @@ Attack optimization finished.
 ```text
 Amax: 2.0  
 lambda_L2: 1e-5  
-*max_iter: 300  
+max_iter: 300  
 initial_learning_rate: 1e-1  
 low_learning_rate: 1e-2  
 lr_switch_iter: 100  
