@@ -4,7 +4,7 @@
 Our proposed Differential Imaging Attack (DIA) is applied to the three models (CV-Deep2S, Deep2S, Deep2S+) introduced in the paper: "[Efficient Physics-Based Learned Reconstruction Methods for Real-Time 3D Near-Field MIMO Radar Imaging](https://www.sciencedirect.com/science/article/abs/pii/S105120042300369X)".
 ***
 ### Files Required for the Attack Implementation
-Use DIA_Deep2S.py, DIA_CVDeep2S.py, or DIA_Deep2S+.py to run the attack. All required files for the corresponding models can be downloaded from:👉 **[Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P)**.
+Use DIA_Deep2S_main.py, DIA_CVDeep2S_main.py, or DIA_Deep2S+_main.py to run the attack. All required files for the corresponding models can be downloaded from:👉 **[Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P)**.
 
 
 Place all of the following files in the working directory before running any DIA script:
