@@ -69,9 +69,7 @@ Iter  10/300 | Loss=1.678663e+00 | loss_im=1.678657e+00 | reg=6.122017e-06 | mea
 Iter 290/300 | Loss=1.285002e+00 | loss_im=1.284976e+00 | reg=2.644721e-05 | mean|A|=1.579e+00, max|A|=1.995e+00
 Iter 295/300 | Loss=1.282835e+00 | loss_im=1.282809e+00 | reg=2.649321e-05 | mean|A|=1.582e+00, max|A|=1.995e+00
 Iter 300/300 | Loss=1.281767e+00 | loss_im=1.281740e+00 | reg=2.658635e-05 | mean|A|=1.585e+00, max|A|=1.995e+00
-
 Attack optimization finished.
-
 ```
 
 (2) ROI Loss (Object-Focused Attack): The L2 loss is computed only inside a predefined Region of Interest (ROI). The ROI corresponds to where the main object or target is located. This yields: Lower required perturbation power, more localized edits and minimal distortion outside the object region. 
@@ -90,9 +88,11 @@ Iter  10/300 | Loss=3.901488e+00 | loss_im=3.901482e+00 | reg=5.846005e-06 | mea
 Iter 295/300 | Loss=7.075801e-01 | loss_im=7.075483e-01 | reg=3.175850e-05 | mean|A|=1.764e+00, max|A|=1.985e+00
 Iter 300/300 | Loss=7.071160e-01 | loss_im=7.070842e-01 | reg=3.176873e-05 | mean|A|=1.764e+00, max|A|=1.985e+00
 Attack optimization finished.
-
-
 ```
+
+<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/roi_attacked_deep2s.png"
+     width="600" height="600">
+     
 ***
 
 ### 🔧 [Some Changes: Attack Optimization Update (Compared to DIA on tradiational and LIA algo)](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/files/implementation_update.pdf)
