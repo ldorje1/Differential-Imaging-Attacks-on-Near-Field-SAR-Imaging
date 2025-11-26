@@ -54,6 +54,25 @@ Example Images from the Original Paper (re-arranged for clarity).
 ***
 ### DIA on the Models 
 
+```text
+Iter   1/300 | Loss=1.754532e+00 | loss_im=1.754532e+00 | reg=3.843202e-11 | mean|A|=1.966e-01, max|A|=2.013e-01
+Iter   5/300 | Loss=1.707187e+00 | loss_im=1.707185e+00 | reg=2.148420e-06 | mean|A|=4.936e-01, max|A|=8.887e-01
+Iter  10/300 | Loss=1.678663e+00 | loss_im=1.678657e+00 | reg=6.122017e-06 | mean|A|=7.601e-01, max|A|=1.444e+00
+Iter  15/300 | Loss=1.663093e+00 | loss_im=1.663084e+00 | reg=9.201950e-06 | mean|A|=9.028e-01, max|A|=1.717e+00
+Iter  20/300 | Loss=1.644004e+00 | loss_im=1.643992e+00 | reg=1.125195e-05 | mean|A|=9.867e-01, max|A|=1.849e+00
+Iter  25/300 | Loss=1.627710e+00 | loss_im=1.627697e+00 | reg=1.303443e-05 | mean|A|=1.062e+00, max|A|=1.903e+00
+
+Iter 270/300 | Loss=1.287815e+00 | loss_im=1.287788e+00 | reg=2.636559e-05 | mean|A|=1.579e+00, max|A|=1.995e+00
+Iter 275/300 | Loss=1.289885e+00 | loss_im=1.289859e+00 | reg=2.643158e-05 | mean|A|=1.580e+00, max|A|=1.995e+00
+Iter 280/300 | Loss=1.287341e+00 | loss_im=1.287315e+00 | reg=2.645551e-05 | mean|A|=1.580e+00, max|A|=1.995e+00
+Iter 285/300 | Loss=1.288208e+00 | loss_im=1.288182e+00 | reg=2.644371e-05 | mean|A|=1.580e+00, max|A|=1.995e+00
+Iter 290/300 | Loss=1.285002e+00 | loss_im=1.284976e+00 | reg=2.644721e-05 | mean|A|=1.579e+00, max|A|=1.995e+00
+Iter 295/300 | Loss=1.282835e+00 | loss_im=1.282809e+00 | reg=2.649321e-05 | mean|A|=1.582e+00, max|A|=1.995e+00
+Iter 300/300 | Loss=1.281767e+00 | loss_im=1.281740e+00 | reg=2.658635e-05 | mean|A|=1.585e+00, max|A|=1.995e+00
+
+Attack optimization finished.
+
+```
 ***
 
 ### 🔧 Some Changes: Attack Optimization Update (Compared to DIA on tradiational and LIA algo)
