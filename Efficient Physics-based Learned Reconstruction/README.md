@@ -72,7 +72,7 @@ Iter 300/300 | Loss=1.281767e+00 | loss_im=1.281740e+00 | reg=2.658635e-05 | mea
 Attack optimization finished.
 ```
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/full_image_attacked_deep2s.png"
-     width="400" height="400">
+     width="600" height="600">
      
 (2) ROI Loss (Object-Focused Attack): The L2 loss is computed only inside a predefined Region of Interest (ROI). The ROI corresponds to where the main object or target is located. This yields: Lower required perturbation power, more localized edits and minimal distortion outside the object region. 
 
