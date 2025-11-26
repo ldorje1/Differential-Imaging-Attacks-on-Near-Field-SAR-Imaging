@@ -49,7 +49,7 @@ Place all of the following files in the working directory before running any DIA
 Example Images from the Original Paper (re-arranged for clarity).
 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/efficient_physics_clean.png"
-     width="800" height="800">
+     width="400" height="400">
      
 
 
@@ -65,7 +65,9 @@ L_global = || I_attacked  –  I_target ||_2   (all pixels)
 
 L_ROI = || I_attacked[ROI]  –  I_target[ROI] ||_2
 
-
+<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/roi_image.png"
+     width="400" height="400">
+     
 ```text
 Iter   1/300 | Loss=1.754532e+00 | loss_im=1.754532e+00 | reg=3.843202e-11 | mean|A|=1.966e-01, max|A|=2.013e-01
 Iter   5/300 | Loss=1.707187e+00 | loss_im=1.707185e+00 | reg=2.148420e-06 | mean|A|=4.936e-01, max|A|=8.887e-01
