@@ -31,11 +31,10 @@ Example Images from the Original Paper (re-arranged for clarity).
 
 ***
 ### Files Required for the Attack Implementation
-Use DIA_Deep2S_main.py, DIA_CVDeep2S_main.py, or DIA_Deep2S+_main.py to run the attack. All required files for the corresponding models can be downloaded from:👉 **[Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P)**.
+Use DIA_Deep2S_main.py, DIA_CVDeep2S_main.py, or DIA_Deep2SP_main.py to run the attack. All required files for the corresponding models can be downloaded from:👉 **[Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P)**.
 
 
 Place all of the following files in the working directory before running any DIA script:
-
 | File | Description |
 |------|-------------|
 | **A15_exp.npy** | Precomputed propagation matrix **A** from the original Deep2S paper. Required for all three models. |
@@ -48,6 +47,7 @@ Place all of the following files in the working directory before running any DIA
 | **misc.py** | Utility functions used by the model (normalization, FFT helpers, padding, etc.). |
 
 **📌 Note:**
+0. All three model use same files except the trained weights.
 
 1. `y_exp_test_4.npy` is first preprocessed in MATLAB according to the Deep2S / CV-Deep2S / Deep2S+ pipeline. This follows the procedure described in the original authors’ GitHub.
 
