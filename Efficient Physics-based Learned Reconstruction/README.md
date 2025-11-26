@@ -25,10 +25,6 @@ The following files must be placed in the working directory before running the D
 
 3. Our baseline experimental attack dictionary `D_flat.npy` was computed and preprocessed in MATLAB to meet the model requirements.
 
-
-
-
-
 ***
 ### Three 3D U-Net-based Models from the Original Paper (for reference) 
 *Deep2S*: Deep2S is a two-stage, physics-guided learned reconstruction network for 3D near-field MIMO radar imaging.
