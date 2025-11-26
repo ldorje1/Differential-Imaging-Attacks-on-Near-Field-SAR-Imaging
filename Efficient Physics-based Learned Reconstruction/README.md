@@ -47,6 +47,7 @@ Place all of the following files in the working directory before running any DIA
 - Produces higher PSNR/SSIM than Deep2S and reduces z-axis under-sampling artifacts, though sometimes slightly over-smooths.
 
 Example Images from the Original Paper (re-arranged for clarity).
+
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/efficient_physics_clean.png"
      width="400" height="400">
 
