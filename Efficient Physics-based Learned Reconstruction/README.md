@@ -68,7 +68,7 @@ Attack optimization finished.
 ```
 ***
 
-### 🔧 Some Changes: Attack Optimization Update (Compared to DIA on tradiational and LIA algo)
+### 🔧 [Some Changes: Attack Optimization Update (Compared to DIA on tradiational and LIA algo)](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/files/implementation_update.pdf)
 
 We updated the optimization strategy for the complex gains **Aₚ** in the Deep2S Differential Imaging Attack (DIA) to improve stability and behavior under the physical amplitude constraint **|Aₚ| ≤ A_max**.
 
