@@ -41,7 +41,8 @@ Place all of the following files in the working directory before running any DIA
 | **A15_exp.npy** | Precomputed propagation matrix **A** from the original Deep2S paper. Required for all three models. |
 | **D_flat.npy** | Our preprocessed experimental attack dictionary, generated in MATLAB to match the model requirements. |
 | **y_exp_test_4.npy** | Raw experimental measurement used for testing (from the original paper). |
-| **model_Nf15_SNR30_exp.h5** | The pretrained Deep2S / Deep2S+ model weights provided by the authors. |
+| **model_Nf15_SNR30_exp.h5** | The pretrained Deep2S model weights provided by the authors. |
+| **model_Nf15_SNR30_CV_exp.h5** | The pretrained CVDeep2S model weights provided by the authors. |
 | **src.py** | Main inference/attack routines (method definitions for preprocessing, projection layer, and forward pass). |
 | **misc.py** | Utility functions used by the model (normalization, FFT helpers, padding, etc.). |
 
