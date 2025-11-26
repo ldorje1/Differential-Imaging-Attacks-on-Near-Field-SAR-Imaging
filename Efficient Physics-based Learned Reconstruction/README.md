@@ -139,7 +139,7 @@ Clean vs Target (ROI): 4.3739e+00
 Attacked vs Target (ROI): 7.0700e-01
 ```
 ***
-# (2) DIA on CVDeep2S
+# (2) DIA on CV-Deep2S
 🛠️ **(1) Global Loss (Full-Image Attack) Result:** Clean image, desired target, and DIA attacked image
 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/full_image_attacked_cvdeep2s.png"
