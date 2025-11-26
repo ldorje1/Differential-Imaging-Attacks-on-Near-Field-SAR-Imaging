@@ -45,60 +45,6 @@ The following are generated images from the original paper (re-arranged for clar
 
 ### CHANGES: Improved Optimization of Complex Gains for the Deep2S Attack
 
-For the Deep2S attack, we updated how the complex gains **Aₚ** are optimized to make the attack more stable and better behaved under the amplitude constraint **|Aₚ| ≤ A_max**.
-
-#### **Old Version (Baseline Approach)**
-
-The original implementation optimized the real and imaginary parts of the gains directly:
-
-A_re ← A_re − η_re * ∇{A_re} L
-
-A_im ← A_im − η_im * ∇{A_im} L
-
-
-After each update, the amplitude constraint was enforced via hard projection:
-
-1. Compute |Aₚ| for each aperture.
-2. If |Aₚ| > A_max, rescale that entry so that |Aₚ| = A_max.
-
-This approach caused:
-
-- Many entries to sit *exactly* at the boundary |Aₚ| = A_max  
-- Oscillatory or unstable loss behavior  
-- Sensitivity to learning-rate choice and abrupt clipping  
-
-#### **New Version (Current Implementation)**
-
-We now optimize unconstrained latent variables **Z_re**, **Z_im**, and map them smoothly into **A**:
-
-A_re = (A_max / 2) * tanh(Z_re)
-
-A_im = (A_max / 2) * tanh(Z_im)
-
-
-This guarantees **|Aₚ| ≤ A_max** automatically, without explicit clipping, and provides smoother gradients near the constraint boundary.
-
-Key improvements:
-
-- **Adam optimizer** is used on *(Z_re, Z_im)* for stable adaptive updates.  
-- **Amplitude bound is satisfied by construction** through the tanh mapping.  
-- An L2-regularization term keeps the optimizer from trivially pushing all amplitudes toward A_max.  
-- The attack converges more smoothly and uses power more coherently across apertures.
-
-
-#### **Summary of the Change**
-
-We replaced the old:
-
-> “optimize A directly + hard clipping”
-
-with a new:
-
-> “optimize latent variables Z + smooth tanh constraint + Adam”
-
-under the same physical amplitude boundary **|Aₚ| ≤ A_max**.
-
-This results in **more stable optimization, fewer saturations, better gradient behavior**, and ultimately **more effective Deep2S attacks**.
 
 
 
