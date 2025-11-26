@@ -56,7 +56,7 @@ Example Images from the Original Paper (re-arranged for clarity).
 
 ***
 
-### 🔧 Summary of Changes: Deep2S Attack Optimization Update
+### 🔧 Some Changes: Attack Optimization Update (Compared to DIA on tradiational and LIA algo)
 
 We updated the optimization strategy for the complex gains **Aₚ** in the Deep2S Differential Imaging Attack (DIA) to improve stability and behavior under the physical amplitude constraint **|Aₚ| ≤ A_max**.
 
