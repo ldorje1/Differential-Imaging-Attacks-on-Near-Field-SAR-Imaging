@@ -160,7 +160,7 @@ Attacked vs Target (ROI): 7.0700e-01
 # (3) DIA on Deep2S+
 🛠️ **(1) Global Loss (Full-Image Attack) Result:** Clean image, desired target, and DIA attacked image
 
-<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/roi_attacked_deep2s+.png"
+<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/full_image_attacked_deep2s%2B.png"
      width="600" height="600">"
 
 🛠️ **(2) ROI Loss (Object-Focused Attack):** Clean image, ROI mask, and mask ovelayed on clean image
