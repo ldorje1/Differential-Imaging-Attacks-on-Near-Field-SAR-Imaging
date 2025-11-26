@@ -61,13 +61,6 @@ For each model (Deep2S, CV-Deep2S, Deep2S+), we implement two variants of the di
 
 L_global = || I_attacked  –  I_target ||_2   (all pixels)
 
-(2) ROI Loss (Object-Focused Attack): The L2 loss is computed only inside a predefined Region of Interest (ROI). The ROI corresponds to where the main object or target is located. This yields: Lower required perturbation power, more localized edits and minimal distortion outside the object region. 
-
-L_ROI = || I_attacked[ROI]  –  I_target[ROI] ||_2
-
-<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/roi_image.png"
-     width="600" height="600">
-     
 ```text
 Iter   1/300 | Loss=1.754532e+00 | loss_im=1.754532e+00 | reg=3.843202e-11 | mean|A|=1.966e-01, max|A|=2.013e-01
 Iter   5/300 | Loss=1.707187e+00 | loss_im=1.707185e+00 | reg=2.148420e-06 | mean|A|=4.936e-01, max|A|=8.887e-01
@@ -78,6 +71,26 @@ Iter 295/300 | Loss=1.282835e+00 | loss_im=1.282809e+00 | reg=2.649321e-05 | mea
 Iter 300/300 | Loss=1.281767e+00 | loss_im=1.281740e+00 | reg=2.658635e-05 | mean|A|=1.585e+00, max|A|=1.995e+00
 
 Attack optimization finished.
+
+```
+
+(2) ROI Loss (Object-Focused Attack): The L2 loss is computed only inside a predefined Region of Interest (ROI). The ROI corresponds to where the main object or target is located. This yields: Lower required perturbation power, more localized edits and minimal distortion outside the object region. 
+
+L_ROI = || I_attacked[ROI]  –  I_target[ROI] ||_2
+
+<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/roi_image.png"
+     width="600" height="600">
+     
+```text
+Iter   1/300 | Loss=4.373837e+00 | loss_im=4.373837e+00 | reg=4.189320e-11 | mean|A|=1.989e-01, max|A|=2.036e-01
+Iter   5/300 | Loss=4.139207e+00 | loss_im=4.139205e+00 | reg=2.231845e-06 | mean|A|=5.030e-01, max|A|=8.978e-01
+Iter  10/300 | Loss=3.901488e+00 | loss_im=3.901482e+00 | reg=5.846005e-06 | mean|A|=7.450e-01, max|A|=1.415e+00
+
+
+Iter 295/300 | Loss=7.075801e-01 | loss_im=7.075483e-01 | reg=3.175850e-05 | mean|A|=1.764e+00, max|A|=1.985e+00
+Iter 300/300 | Loss=7.071160e-01 | loss_im=7.070842e-01 | reg=3.176873e-05 | mean|A|=1.764e+00, max|A|=1.985e+00
+Attack optimization finished.
+
 
 ```
 ***
