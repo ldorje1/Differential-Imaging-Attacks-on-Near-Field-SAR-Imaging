@@ -140,6 +140,12 @@ Attacked vs Target (ROI): 7.0700e-01
 ```
 ***
 # (2) DIA on CVDeep2S
+🛠️ **(1) Global Loss (Full-Image Attack):**
+
+
+
+🛠️ **(2) ROI Loss (Object-Focused Attack):**
+
 
 
 
