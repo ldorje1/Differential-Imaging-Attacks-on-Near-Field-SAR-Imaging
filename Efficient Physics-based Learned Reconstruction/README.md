@@ -71,6 +71,15 @@ Iter 295/300 | Loss=1.282835e+00 | loss_im=1.282809e+00 | reg=2.649321e-05 | mea
 Iter 300/300 | Loss=1.281767e+00 | loss_im=1.281740e+00 | reg=2.658635e-05 | mean|A|=1.585e+00, max|A|=1.995e+00
 Attack optimization finished.
 ```
+```text
+Amax: 2.0  
+lambda_L2: 1e-5  
+*max_iter: 300  
+initial_learning_rate: 1e-1  
+low_learning_rate: 1e-2  
+lr_switch_iter: 100  
+
+```
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/full_image_attacked_deep2s.png"
      width="600" height="600">
 ```text
