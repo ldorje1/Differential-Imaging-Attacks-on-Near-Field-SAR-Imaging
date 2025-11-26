@@ -44,9 +44,6 @@ The following are generated images from the original paper (re-arranged for clar
 ***
 
 ### CHANGES: Improved Optimization of Complex Gains for the Deep2S Attack
-
-### 📄 Short Paper (PDF)
-
 [Click here to view the PDF](Efficient%20Physics-based%20Learned%20Reconstruction/files/implementation_update.pdf)
 
 
