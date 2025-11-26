@@ -169,7 +169,7 @@ Attacked vs Target (ROI): 7.0700e-01
      width="600" height="600">"
 
 **Result**
-<img src="<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/roi_attacked_deep2s%2B.png"
+<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/images/roi_attacked_deep2s%2B.png"
      width="600" height="600">"
 
 
