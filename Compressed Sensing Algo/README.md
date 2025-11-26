@@ -33,5 +33,5 @@ Please download all files from the following Google Drive folder: 👉 [Google D
 ## Atttack Results 
 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Compressed%20Sensing%20Algo/images/attacked_csa.png"
-     width="600" height="600">
+     width="400" height="400">
 
