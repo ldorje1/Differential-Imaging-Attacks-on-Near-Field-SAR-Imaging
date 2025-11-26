@@ -17,7 +17,7 @@ The following files must be placed in the working directory before running the D
 
 **Note:**
 
-1. The experimental measurement data `y_exp_test_4.npy` is first preprocessed according to the requirements of the three models. The preprocessing follows the procedure described in the original paper’s GitHub repository.
+1. The experimental measurement data `y_exp_test_4.npy` is first preprocessed in MATLAB according to the requirements of the three models. The preprocessing follows the procedure described in the original paper’s GitHub repository.
 
 2. We use the raw measurement data (to generated `y_exp_test_4.npy`) provided by the paper (instead of our own) because the predefined propagation matrix **A** used by all models is derived from the original measurement environment.
 
