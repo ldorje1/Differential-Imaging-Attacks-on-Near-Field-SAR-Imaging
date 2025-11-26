@@ -157,6 +157,10 @@ Attacked vs Target (ROI): 7.0700e-01
 
 ***
 
+# (3) DIA on Deep2S+
+
+***
+
 ### 🔧 [Some Changes: Attack Optimization Update (Compared to DIA on tradiational and LIA algo)](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Efficient%20Physics-based%20Learned%20Reconstruction/files/implementation_update.pdf)
 
 We updated the optimization strategy for the complex gains **Aₚ** in the Deep2S Differential Imaging Attack (DIA) to improve stability and behavior under the physical amplitude constraint **|Aₚ| ≤ A_max**.
