@@ -54,7 +54,7 @@ Place all of the following files in the working directory before running any DIA
 3. Our attack dictionary `D_flat.npy` was computed and preprocessed in MATLAB to meet the model’s dimensional and normalization requirements.
 
 ***
-### DIA on Deep2S 
+## (1) DIA on Deep2S 
 We implemented two variants of the differential imaging attack, depending on where the loss is computed:
 
 🛠️ **(1) Global Loss (Full-Image Attack):**  :The L2 loss is computed over all pixels in the reconstructed image. This forces the attack to globally reshape the entire SAR volume toward the target. Stronger but more power-demanding; produces large structural changes.
