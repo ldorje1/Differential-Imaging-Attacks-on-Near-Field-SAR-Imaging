@@ -9,7 +9,7 @@ CSA method introduce in the paper is a sparse SAR imaging method that uses an ex
 ***
 ## Files Required for the Attack Implementation
 
-Please download all files from the following Google Drive folder: 👉 [Google Drive data folder ](https://drive.google.com/drive/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P?usp=drive_link).
+Please download all files from the following Google Drive folder: 👉 [Google Drive data folder ](https://drive.google.com/drive/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P?usp=drive_link) and then run the [DIA_CSA_main](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Compressed%20Sensing%20Algo/DIA_CSA_main.m) file.
 
 | File Name                                   | Description |
 |---------------------------------------------|-------------|
