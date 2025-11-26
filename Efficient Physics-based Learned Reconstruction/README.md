@@ -2,29 +2,6 @@
 (Applied to Efficient Physics-Based 3D Learned Reconstruction Models)
 
 Our proposed Differential Imaging Attack (DIA) is applied to the three models (CV-Deep2S, Deep2S, Deep2S+) introduced in the paper: "[Efficient Physics-Based Learned Reconstruction Methods for Real-Time 3D Near-Field MIMO Radar Imaging](https://www.sciencedirect.com/science/article/abs/pii/S105120042300369X)".
-***
-### Files Required for the Attack Implementation
-Use DIA_Deep2S_main.py, DIA_CVDeep2S_main.py, or DIA_Deep2S+_main.py to run the attack. All required files for the corresponding models can be downloaded from:👉 **[Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P)**.
-
-
-Place all of the following files in the working directory before running any DIA script:
-
-| File | Description |
-|------|-------------|
-| **A15_exp.npy** | Precomputed propagation matrix **A** from the original Deep2S paper. Required for all three models. |
-| **D_flat.npy** | Our preprocessed experimental attack dictionary, generated in MATLAB to match the model requirements. |
-| **y_exp_test_4.npy** | Raw experimental measurement used for testing (from the original paper). |
-| **model_Nf15_SNR30_exp.h5** | The pretrained Deep2S / Deep2S+ model weights provided by the authors. |
-| **src.py** | Main inference/attack routines (method definitions for preprocessing, projection layer, and forward pass). |
-| **misc.py** | Utility functions used by the model (normalization, FFT helpers, padding, etc.). |
-
-**📌 Note:**
-
-1. `y_exp_test_4.npy` is first preprocessed in MATLAB according to the Deep2S / CV-Deep2S / Deep2S+ pipeline. This follows the procedure described in the original authors’ GitHub.
-
-2. We use the original experimental measurement (not our own) because the propagation matrix A was computed from the original measurement environment, and is not compatible with other systems.
-
-3. Our attack dictionary `D_flat.npy` was computed and preprocessed in MATLAB to meet the model’s dimensional and normalization requirements.
 
 ***
 ### Three 3D U-Net Models From the Paper (Reference)
@@ -52,6 +29,30 @@ Example Images from the Original Paper (re-arranged for clarity).
      width="600" height="600">
      
 
+
+***
+### Files Required for the Attack Implementation
+Use DIA_Deep2S_main.py, DIA_CVDeep2S_main.py, or DIA_Deep2S+_main.py to run the attack. All required files for the corresponding models can be downloaded from:👉 **[Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P)**.
+
+
+Place all of the following files in the working directory before running any DIA script:
+
+| File | Description |
+|------|-------------|
+| **A15_exp.npy** | Precomputed propagation matrix **A** from the original Deep2S paper. Required for all three models. |
+| **D_flat.npy** | Our preprocessed experimental attack dictionary, generated in MATLAB to match the model requirements. |
+| **y_exp_test_4.npy** | Raw experimental measurement used for testing (from the original paper). |
+| **model_Nf15_SNR30_exp.h5** | The pretrained Deep2S / Deep2S+ model weights provided by the authors. |
+| **src.py** | Main inference/attack routines (method definitions for preprocessing, projection layer, and forward pass). |
+| **misc.py** | Utility functions used by the model (normalization, FFT helpers, padding, etc.). |
+
+**📌 Note:**
+
+1. `y_exp_test_4.npy` is first preprocessed in MATLAB according to the Deep2S / CV-Deep2S / Deep2S+ pipeline. This follows the procedure described in the original authors’ GitHub.
+
+2. We use the original experimental measurement (not our own) because the propagation matrix A was computed from the original measurement environment, and is not compatible with other systems.
+
+3. Our attack dictionary `D_flat.npy` was computed and preprocessed in MATLAB to meet the model’s dimensional and normalization requirements.
 
 ***
 ### DIA on Deep2S 
