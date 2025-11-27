@@ -69,7 +69,7 @@ rawSAR → FFT → MFA → |x| → resize → Mobile-ViT → output
 During the attack, we optimize a complex perturbation **ΔY** on `rawSAR` such that the Mobile-ViT output matches the jet-RGB rendering of **`desired_attacked_complex`**.
 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/attacked_mobileViT.png"
-     width="400" height="400">
+     width="600" height="600">
 
 
 
