@@ -8,3 +8,7 @@ RMIST-Net is a physics-guided unrolled sparse imaging network for mmWave/SAR dat
 **📌 Note:**
 
 (1) Because the original RMIST-NET model does not provide pretrained weights, we reconstructed the unrolled network from the paper and re-trained it using a synthetic point-target dataset generated in MATLAB ([link](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/RMIST-Net/extra/training_data_synth_main.m)).   
+
+
+
+## 📁 Files Required for the Attack Implementation
