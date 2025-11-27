@@ -45,7 +45,7 @@ https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imagin
 
 ***
 
-### Clean Results 
+## Clean Results 
 Our retrained Mobile-ViT results:
 
 #### (1) Mobile-VIT image generation using synthetic data (no attack)
@@ -61,18 +61,10 @@ The figure below shows the Mobile-VIT super-resolution model applied to a low-re
 * generated images are upside down I need fix this
   
 ***
-### DIA on Re-trained MobileVIT
-### 🔧 Processing Pipeline (Mobile-ViT SAR Attack)
+## DIA on Re-trained MobileVIT
+#### 🔧 Processing Pipeline (Mobile-ViT SAR Attack)
 
-``rawSAR`` (complex, torch)  
-→ **Range FFT**  
-→ **MFA reconstruction** (PyTorch, autograd)  
-→ `|x|` (magnitude)  
-→ **Min–max normalization**  
-→ **Jet colormap** (3-channel RGB)  
-→ **Resize**  
-→ **Mobile-ViT**  
-→ **Output**
+rawSAR → FFT → MFA → |x| → normalize → jet → resize → Mobile-ViT → output
 
 During the attack, we optimize a complex perturbation **ΔY** on `rawSAR` such that the Mobile-ViT output matches the jet-RGB rendering of **`desired_attacked_complex`**.
 
