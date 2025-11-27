@@ -28,10 +28,10 @@ Place all of the following files in the working directory before running any Mob
 
 | File | Description |
 |------|-------------|
-| **data/rawSAR.mat** | Raw SAR measurement cube. Variable: **adcDataCube** of size *(Nsamp × M × N)*, complex. |
-| **data/D.mat** | Flattened attack dictionary. Variable: **D** of size *(Nsamp × (M·N))*, complex; generated in MATLAB. |
-| **data/desired_attacked_complex_MFA_RMA.mat** | Target complex image for MFA/RMA spoofing. Variable: **sar_camouflaged** of size *(H × W)*. |
-| **models/hffh_vit_best_epoch_050.pth** | Re-trained Mobile-ViT checkpoint used for super-resolution and attack optimization. |
+| **rawSAR.mat** | Raw SAR measurement cube. Variable: **adcDataCube** of size *(Nsamp × M × N)*, complex. |
+| **D.mat** | Flattened attack dictionary. Variable: **D** of size *(Nsamp × (M·N))*, complex; generated in MATLAB. |
+| **desired_attacked_complex_MFA_RMA.mat** | Desired target complex image for MFA/RMA. Variable: **sar_camouflaged** of size *(H × W)*. |
+| **hffh_vit_best_epoch_050.pth** | Re-trained Mobile-ViT checkpoint used for super-resolution and attack optimization. |
 
 *Note: The attack dictionary **D.mat** used in this implementation was generated using MATLAB.*
 
