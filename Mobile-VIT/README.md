@@ -38,8 +38,6 @@ Place all of the following files in the working directory before running any Mob
 ***
 
 ### Training Proof
-The model is re-trained using our synthetic dataset from *'MilliSARImageNet: A 2D High-Resolution Millimeter-Wave SAR Image Dataset'*.
-
 Below is the training log from our Mobile-ViT retraining, showing the model converging and the best epoch selected:
 
 ![Mobile-ViT Training Log](
