@@ -64,7 +64,7 @@ The figure below shows the Mobile-VIT super-resolution model applied to a low-re
 ## DIA on Re-trained MobileVIT
 #### 🔧 Processing Pipeline (Mobile-ViT SAR Attack)
 
-rawSAR → FFT → MFA → |x| → normalize → jet → resize → Mobile-ViT → output
+rawSAR → FFT → MFA → |x| → resize → Mobile-ViT → output
 
 During the attack, we optimize a complex perturbation **ΔY** on `rawSAR` such that the Mobile-ViT output matches the jet-RGB rendering of **`desired_attacked_complex`**.
 
