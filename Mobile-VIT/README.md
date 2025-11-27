@@ -6,15 +6,6 @@ Our proposed differential imaging attack is applied to the Mobile-VIT model, whi
 Because the original Mobile-ViT SAR model does not provide pretrained weights, we re-trained the network using the procedure described in the paper.
 
 
-
-
-
-To reproduce the result run [attack_mobilevit.ipynb ](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/attack_mobilevit.ipynb).
-
-Since the original Mobile-ViT SAR model does not publicly provide trained weights,  
-we re-trained the network following the methodology described in the paper. Please use our provided checkpoint: **`hffh_vit_best_epoch_050.pth`**
-when running the differential imaging attack on Mobile-ViT.
-
 ***
 
 ### Files Needed for attack 
