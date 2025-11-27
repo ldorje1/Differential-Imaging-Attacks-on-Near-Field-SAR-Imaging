@@ -13,6 +13,13 @@ flowchart LR
     B --> C[Mobile-ViT Super-Resolution]
     C --> D[High-Resolution SAR Image]
 ```
+Since we don't have access to EMPM we used MFA for a coarse image estimation. Our implementaion of the Mobile-VIT: 
+```mermaid
+flowchart LR
+    A[Raw mmWave Data] --> B[MFA Coarse Reconstruction]
+    B --> C[Mobile-ViT Super-Resolution]
+    C --> D[High-Resolution SAR Image]
+```
 
 
 ***
