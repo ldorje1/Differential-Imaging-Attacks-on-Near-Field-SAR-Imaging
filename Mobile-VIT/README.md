@@ -24,7 +24,7 @@ flowchart LR
 
 ***
 ### 📁 Files Required for the Attack Implementation  
-Place all of the following files in the working directory before running any Mobile-ViT differential imaging attack scripts:
+Place all of the following files in the working directory before running the DI-Attack ([DIA_MobileViT_ch3_main](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/DIA_mobileVIT_ch3_main.ipynb)) scripts:
 
 | File | Description |
 |------|-------------|
