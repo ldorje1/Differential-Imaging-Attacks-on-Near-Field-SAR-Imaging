@@ -23,24 +23,15 @@ flowchart LR
 
 
 ***
+### 📁 Files Needed for Mobile-ViT DIA Attack  
 Place all of the following files in the working directory before running any Mobile-ViT differential imaging attack scripts:
 
-File	Description
-data/rawSAR.mat	Raw SAR measurement cube. Variable: adcDataCube of size (Nsamp × M × N), complex.
-data/D.mat	Flattened attack dictionary. Variable: D of size (Nsamp × (M·N)), complex; generated in MATLAB.
-data/desired_attacked_complex_MFA_RMA.mat	Target (desired) complex image for MFA/RMA spoofing. Variable: sar_camouflaged of size (H × W).
-models/hffh_vit_best_epoch_050.pth	Re-trained Mobile-ViT checkpoint used for super-resolution and attack optimization.
-
-
-### Files Needed for attack 
-- data/rawSAR.mat
-    variable: adcDataCube   (Nsamp x M x N), complex
-- data/D.mat
-    variable: D             (Nsamp x (M*N)), complex
-- data/desired_attacked_complex_MFA_RMA.mat
-    variable: sar_camouflaged  (H x W), complex
-- models/hffh_vit_best_epoch_050.pth
-    trained Mobile-ViT checkpoint
+| File | Description |
+|------|-------------|
+| **data/rawSAR.mat** | Raw SAR measurement cube. Variable: **adcDataCube** of size *(Nsamp × M × N)*, complex. |
+| **data/D.mat** | Flattened attack dictionary. Variable: **D** of size *(Nsamp × (M·N))*, complex; generated in MATLAB. |
+| **data/desired_attacked_complex_MFA_RMA.mat** | Target complex image for MFA/RMA spoofing. Variable: **sar_camouflaged** of size *(H × W)*. |
+| **models/hffh_vit_best_epoch_050.pth** | Re-trained Mobile-ViT checkpoint used for super-resolution and attack optimization. |
 
 *Note: The attack dictionary **D.mat** used in this implementation was generated using MATLAB.*
 
