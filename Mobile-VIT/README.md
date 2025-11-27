@@ -10,9 +10,10 @@ Our proposed differential imaging attack is applied to the Mobile-VIT model, whi
 
 ```mermaid
 flowchart LR
-    A[Raw mmWave Data] --> B[EMPM Reconstruction<br/>(Coarse Estimate)]
-    B --> C[Mobile-ViT<br/>(Super-Resolution)]
+    A[Raw mmWave Data] --> B[EMPM Coarse Reconstruction]
+    B --> C[Mobile-ViT Super-Resolution]
     C --> D[High-Resolution SAR Image]
+```
 
 
 ***
