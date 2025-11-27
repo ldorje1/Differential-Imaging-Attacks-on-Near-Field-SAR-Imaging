@@ -3,7 +3,7 @@
 Our proposed differential imaging attack is applied to the Mobile-VIT model, which uses VIT archeitecture for super resoultion, introduced in the paper: [“A Vision Transformer Approach for Efficient Near-Field Irregular SAR Super-Resolution.”](https://arxiv.org/pdf/2305.02074)
 
 **📌 Note:**
-Because the original Mobile-ViT SAR model does not provide pretrained weights, we re-trained the network using the procedure described in the paper. The paper's exact model can be found [here](https://github.com/josiahwsmith10/hybrid-freehand-imaging-ViT/blob/main/get_results.ipynb). 
+Because the original Mobile-ViT SAR model does not provide pretrained weights, we re-trained the network using the procedure described in the paper. The paper's original model information can be found [here](https://github.com/josiahwsmith10/hybrid-freehand-imaging-ViT/blob/main/get_results.ipynb). 
 
 
 ***
