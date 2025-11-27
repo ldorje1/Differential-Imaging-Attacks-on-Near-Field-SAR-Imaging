@@ -23,7 +23,7 @@ flowchart LR
 
 
 ***
-### 📁 Files Needed for Mobile-ViT DIA Attack  
+### 📁 Files Required for the Attack Implementation  
 Place all of the following files in the working directory before running any Mobile-ViT differential imaging attack scripts:
 
 | File | Description |
