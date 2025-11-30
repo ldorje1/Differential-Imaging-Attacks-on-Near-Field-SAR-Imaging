@@ -22,7 +22,7 @@ alpha = IFT2D( FT2D(S) ⊙ Phi_r^† )  ≜ RM†(S)
 
 ## 📁 Files Required for the Attack Implementation
 
-Place **all** of the following files ([Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P)) in the working directory before running the RMIST attack scripts : DIA_RMNIST_Net_main.
+Place **all** of the following files ([Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P)) in the working directory before running the RMIST attack scripts : [DIA_RMNIST_Net_main](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/RMIST-Net/DIA_RMIST_Net_main.ipynb).
 
 | **File** | **Description** |
 |----------|-----------------|
