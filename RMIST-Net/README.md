@@ -41,34 +41,7 @@ Place **all** of the following files in the working directory before running the
 ## Re-trained RMNIST-Net Clean Results
 
 ```text
-from scipy.io import loadmat
-import numpy as np
-import matplotlib.pyplot as plt
-
-new_mat_path = '/content/drive/MyDrive/Colab Notebooks/RMIST_Net/S_hat_knife.mat'
-mat = loadmat(new_mat_path)
-print("\nKeys in S_hat_knife.mat:", mat.keys())
-New_Echo = mat['S_hat']    # (H, W) complex
-
-print("New_Echo dtype:", New_Echo.dtype, "shape:", New_Echo.shape)
-if not np.iscomplexobj(New_Echo):
-    raise ValueError("New_Echo is not complex – check variable name or save format.")
-
-# Normalize with same global_max used for training data
-print("global_max from training data:", global_max)
-New_Echo_norm = New_Echo / global_max
-
-# Convert to (1, 2, H, W) tensor
-echo_ri_realimag = np.stack([New_Echo_norm.real, New_Echo_norm.imag], axis=0).astype(np.float32)
-echo_ri_tensor   = torch.from_numpy(echo_ri_realimag).unsqueeze(0).to(device)
-
-B, C, H_new, W_new = echo_ri_tensor.shape
-print(f"Echo tensor shape: {echo_ri_tensor.shape}")
-print(f"Training size: H={H}, W={W}")
-if H_new != H or W_new != W:
-    print(f"WARNING: new echo size ({H_new},{W_new}) != training size ({H},{W})")
-
-# Run trained model
+# Run re-trained model
 with torch.no_grad():
     pred_ri_realimag = model(echo_ri_tensor)   # (1, 2, H, W)
 
@@ -85,3 +58,9 @@ plt.colorbar()
 plt.axis('off')
 plt.show()
 ```
+
+<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/RMIST-Net/figures/clean_rmnist_net.png"
+     width="500" height="500">
+
+
+
