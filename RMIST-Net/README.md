@@ -5,8 +5,14 @@ Our proposed Differential Imaging Attack (DIA) is applied to the range migration
 
 RMIST-Net is a physics-guided unrolled sparse imaging network for mmWave/SAR data. It replaces the large CS sensing matrix with a fast FFT/IFFT range-migration operator and unrolls ISTA-style iterations into T learnable phases.
 
-(14)  S = IFT2D( FT2D(alpha) ⊙ Phi_r )  ≜ RM(alpha)
-(15)  alpha = IFT2D( FT2D(S) ⊙ Phi_r^† )  ≜ RM†(S)
+#### Embed RM Kernel Into ISTA
+Phi_r      = k_y^(-1) * exp(-j * k_y * r)
+
+Phi_r_dag  = k_y * exp(j * k_y * r)
+
+S = IFT2D( FT2D(alpha) ⊙ Phi_r )  ≜ RM(alpha)
+
+alpha = IFT2D( FT2D(S) ⊙ Phi_r^† )  ≜ RM†(S)
 
 
 
