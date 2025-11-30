@@ -30,7 +30,6 @@ Place **all** of the following files in the working directory before running the
 | **D.mat** | Flattened attack dictionary. Variable: `D` of size **(Nsamp × N_p)** (or **Nsamp × M·N**), complex; generated in MATLAB. |
 | **trueImage_complex_RMA_RMIST_512.mat** | Ground-truth complex SAR image for RMIST/RMA. Variable: `trueImage_complex` of size **(H × W)**. |
 | **desired_attacked_complex_RMA_RMIST.mat** | Desired target (camouflaged) complex image. Variable: `sar_camouflaged` of size **(H × W)**. |
-| **Phi_r_dag.mat** | Conjugate range-migration kernel for RMIST back-projection. Variable: `Phi_r_dag`. |
 | **global_max.mat** | Global normalization scalar used to match RMIST training scale. Variable: `global_max`. |
 | **S_hat_knife.mat** | Precomputed RMIST intermediate output for the *knife* object. Variable: `S_hat`. |
 
