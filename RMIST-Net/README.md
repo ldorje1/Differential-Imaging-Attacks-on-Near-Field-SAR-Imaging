@@ -22,7 +22,7 @@ alpha = IFT2D( FT2D(S) ⊙ Phi_r^† )  ≜ RM†(S)
 
 ## 📁 Files Required for the Attack Implementation
 
-Place **all** of the following files in the working directory before running the RMIST attack scripts:
+Place **all** of the following files ([Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P)) in the working directory before running the RMIST attack scripts : DIA_RMNIST_Net_main.
 
 | **File** | **Description** |
 |----------|-----------------|
@@ -34,7 +34,6 @@ Place **all** of the following files in the working directory before running the
 | **S_hat_knife.mat** | Precomputed RMIST intermediate output for the *knife* object. Variable: `S_hat`. |
 
 > **Note:** All `.mat` files were generated using MATLAB during RMIST preprocessing and reconstruction.
-
 
 *** 
 ## Re-trained RMNIST-Net Clean Results
