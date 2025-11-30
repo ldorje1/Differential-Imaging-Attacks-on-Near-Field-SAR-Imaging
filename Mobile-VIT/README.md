@@ -45,7 +45,7 @@ Below is the training log from our Mobile-ViT retraining, showing the model conv
 
 ***
 
-## Clean Results 
+## Re-trained Mobile-ViT Clean Results
 Our retrained Mobile-ViT results:
 
 #### (1) Mobile-VIT image generation using synthetic data (no attack)
