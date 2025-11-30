@@ -61,5 +61,8 @@ plt.show()
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/RMIST-Net/figures/clean_rmnist_net.png"
      width="500" height="500">
 
+## DI-Attack on Re-trained RMNIST-Net
 
+<img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/RMIST-Net/figures/attacked_rmnist_net.png"
+     width="500" height="500">
 
