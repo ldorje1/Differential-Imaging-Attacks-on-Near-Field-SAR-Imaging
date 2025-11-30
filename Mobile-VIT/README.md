@@ -61,7 +61,7 @@ The figure below shows the Mobile-VIT super-resolution model applied to a low-re
 * generated images are upside down I need fix this
   
 ***
-## DIA on Re-trained MobileVIT
+## DIA on Re-trained Mobile-ViT
 #### 🔧 Processing Pipeline (Mobile-ViT SAR Attack)
 
 rawSAR → FFT → MFA → |x| → resize → Mobile-ViT → output
