@@ -16,7 +16,7 @@ alpha = IFT2D( FT2D(S) ⊙ Phi_r^† )  ≜ RM†(S)
 
 **📌 Note:**
 
-(1) Because the original RMIST-NET model does not provide pretrained weights, we reconstructed the unrolled network from the paper and re-trained ([re-trained weights](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/tree/main/RMIST-Net/models)) it using a synthetic point-target dataset generated in MATLAB ([link](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/RMIST-Net/extra/training_data_synth_main.m)).   
+(1) The pretrained SquiggleMilli weights provided in the repository appear to be corrupted. To ensure consistency, we re-trained the model from scratch using the original ([re-trained weights](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/tree/main/RMIST-Net/models)) it using a synthetic point-target dataset generated in MATLAB ([link](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/RMIST-Net/extra/training_data_synth_main.m)).   
 
 ***
 
