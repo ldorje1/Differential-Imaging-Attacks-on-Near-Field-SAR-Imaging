@@ -12,12 +12,8 @@ Our proposed differential imaging attack (DIA) is applied to the SquiggleMilli m
 
 (1) The pretrained SquiggleMilli weights provided in the repository appear to be corrupted. To ensure consistency, we re-trained the model from scratch using the original [dataset](https://www.dropbox.com/scl/fo/ibj6m0qcy0pmaqwltkncs/AORJc1tvXvlU1mHCwdCz2QE?rlkey=exu9kisonu5l2wozcpdh0d3cr&e=1&dl=0).
 
-
-
 ***
-### Re-Training Proof
-The model is re-trained using our synthetic dataset from *'MilliSARImageNet: A 2D High-Resolution Millimeter-Wave SAR Image Dataset'*.
-
+## Re-trained SquiggleMilli Clean Results
 Below is the final part of the training log from our SquiggleMilli model retraining.  This confirms successful convergence and checkpoint saving during the last epochs:
 
 ```text
@@ -40,8 +36,10 @@ Saved checkpoints for epoch 300 to models/
 Training complete.
 ```
 
-***
-## Re-trained SquiggleMilli Clean Results
+
+
+
+
 Our re-trained SquiggleMilli genetor results @
 epoch 40, epoch 100, and epoch 300 
 
