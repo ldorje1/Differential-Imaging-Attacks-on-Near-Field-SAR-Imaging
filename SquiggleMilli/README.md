@@ -1,11 +1,18 @@
 # Differential Imaging (DI) Attacks on Near-Field SAR Imaging
 (Applied to SquiggleMilli) 
 
-Our proposed differential imaging attack (DIA) is applied to the SquiggleMilli model, which uses cGAN achitecture, introduced in the paper:  
-["SquiggleMilli: Approximating SAR Imaging on Mobile Millimeter-Wave Devices"](https://dl.acm.org/doi/10.1145/3478113).
+Our proposed differential imaging attack (DIA) is applied to the SquiggleMilli model, which uses cGAN achitecture, introduced in the paper: ["SquiggleMilli: Approximating SAR Imaging on Mobile Millimeter-Wave Devices"](https://dl.acm.org/doi/10.1145/3478113).
 
 ***
-### Files required for attack implementation
+## 📁 Files Required for the Attack Implementation  
+
+
+
+**📌 Note:**
+
+(1) The pretrained SquiggleMilli weights provided in the repository appear to be corrupted. To ensure consistency, we re-trained the model from scratch using the original [dataset](https://www.dropbox.com/scl/fo/ibj6m0qcy0pmaqwltkncs/AORJc1tvXvlU1mHCwdCz2QE?rlkey=exu9kisonu5l2wozcpdh0d3cr&e=1&dl=0).
+
+
 
 ***
 ### Re-Training Proof
@@ -34,7 +41,7 @@ Training complete.
 ```
 
 ***
-### Clean Results (without DIA)
+## Re-trained SquiggleMilli Clean Results
 Our re-trained SquiggleMilli genetor results @
 epoch 40, epoch 100, and epoch 300 
 
