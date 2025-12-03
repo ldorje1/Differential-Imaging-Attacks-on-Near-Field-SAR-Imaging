@@ -1,17 +1,17 @@
 ### Differential Imaging Attack (DIA) on Classical Millimeterwave Imaging Algorithms
 
-Our Differential Imaging Attack is applied to both classical and modern image reconstruction pipelines. Classical algorithms, including the Back-Projection Algorithm (BPA), the Range Migration Algorithm (RMA), and the Matched Filter Algorithm (MFA), can be used to reconstruct the millemeterwave images based directly on the time-domain echo data measurements. The original implementation of these algorithms is not differentiable, can not be used to obtain gradients. We re-implement them as differentiable algorithms in MATLAB based on dlarray. Automatic differentiation engine can then be exploited to calculate gradients, and gradient descent method is the used for realizing DIA. We evaluate their robustness under DIA adversarial attacks.
+Our Differential Imaging Attack is applied to both classical and modern image reconstruction pipelines. Classical algorithms, including the Back-Projection Algorithm (**BPA**), the Range Migration Algorithm (**RMA**), and the Matched Filter Algorithm (**MFA**), can be used to reconstruct the millemeterwave images based directly on the time-domain echo data measurements. The original implementation of these algorithms is not differentiable, can not be used to obtain gradients. We re-implement them as differentiable algorithms in MATLAB based on dlarray. Automatic differentiation engine can then be exploited to calculate gradients, and gradient descent method is the used for realizing DIA. We evaluate their robustness under DIA adversarial attacks.
 
-We also include a more recently imaging algorithm, i.e., [Lightweight Imaging Algorithm (LIA)](https://ieeexplore.ieee.org/abstract/document/9362213), an iterative imaging algorithm designed for efficient, high-quality imaging under irregular or non-uniform sensing apertures. One thing to note is that the automatic differentiation through the full LIA operation was very slow because of its large number of iterations. Therefore, for LIA we compute gradients using a linear BPA surrogate built from the same propagation matrix H, while the final attacked image is always reconstructed using the full LIA algorithm.
+We also include a more recently imaging algorithm, i.e., [Lightweight Imaging Algorithm (**LIA**)](https://ieeexplore.ieee.org/abstract/document/9362213), an iterative imaging algorithm designed for efficient, high-quality imaging under irregular or non-uniform sensing apertures. One thing to note is that the automatic differentiation through the full LIA operation was very slow because of its large number of iterations. Therefore, for LIA we compute gradients using a linear BPA surrogate built from the same propagation matrix H, while the final attacked image is always reconstructed using the full LIA algorithm.
 
 ***
 
-### Attack Implementation for Reproducibility
-Please download the 3D raw data cube rawSAR.mat from the following Google Drive folder: 👉 [Google Drive data folder ](https://drive.google.com/drive/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P?usp=drive_link).
+### Attack Implementation
+Download the 3D raw data cube 'rawSAR.mat' from the following Google Drive folder: 👉 [Google Drive data folder ](https://drive.google.com/drive/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P?usp=drive_link).
  
 For the full DIA attack implementation, the following dataset files (available in the [data folder](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/tree/main/Traditional%20SAR%20Imaging%20Algos/data)) must be placed in the same directory as the main MATLAB attack script, [DIA_traditional_LIA_main](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Traditional%20SAR%20Imaging%20Algos/DIA_traditional_LIA_main.m). 
 
-Then, inside the script, select the desired SAR reconstruction algorithm by setting
+Then, inside the script, select the desired image reconstruction algorithm by setting
 sar_algo = 'RMA'; % MFA | RMA | BPA | LIA
 | File Name                                 | Description |
 |-------------------------------------------|-------------|
