@@ -1,8 +1,0 @@
-- data/rawSAR.mat
-    variable: adcDataCube   (Nsamp x M x N), complex
-- data/D.mat
-    variable: D             (Nsamp x (M*N)), complex
-- data/desired_attacked_complex_MFA_RMA.mat
-    variable: sar_camouflaged  (H x W), complex
-- models/hffh_vit_best_epoch_050.pth
-    trained Mobile-ViT checkpoint
