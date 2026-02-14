@@ -1,6 +1,14 @@
 # Differential Imaging Attack (DIA): Adversarial Attack to Millimeterwave Imaging Systems based on Differential Imaging Algorithms
 
-##  🔍🔎 Please see the [project update](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/update_11_26_2025.pdf) file before any attack implementation.
+## Update on v2 (2/14/2025)
+- all models on same on the same plateform on VS code (No google colab, no anaconda jupyter notebook)
+- consistant normalization across all models (Matlab and Python)
+- generates target image using randomly shuffled raw sar data
+
+- 
+
+
+
 
 
 🚧 UNDER CONSTRUCTION 🚧 
