@@ -2,7 +2,7 @@
 
 ---
 ## Update on v2 (2/14/2025)
-- Unified Platform: All models are now integrated into a single VS Code environment, replacing the need for Google Colab or Anaconda/Jupyter Notebooks.
+- Unified Platform: All models are now integrated into VS Code environment, replacing the need for Google Colab or Anaconda/Jupyter Notebooks.
 - Consistent Normalization: Implemented same normalization protocols across all MATLAB and Python models.
 - Target Image Generation: Added functionality to generate target images using the model itself by processing randomly shuffled raw SAR data.
 - Combined six variants of physics-based DNN models into a single main file to streamline adversarial attack implementation.
