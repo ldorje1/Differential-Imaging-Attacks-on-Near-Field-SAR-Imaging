@@ -1,15 +1,13 @@
 # Differential Imaging Attack (DIA): Adversarial Attack to Millimeterwave Imaging Systems based on Differential Imaging Algorithms
 
+---
 ## Update on v2 (2/14/2025)
-- all models on same on the same plateform on VS code (No google colab, no anaconda jupyter notebook)
-- consistant normalization across all models (Matlab and Python)
-- generates target image using randomly shuffled raw sar data
-
-- 
-
-
-
-
+- Unified Platform: All models are now integrated into a single VS Code environment, replacing the need for Google Colab or Anaconda/Jupyter Notebooks.
+- Consistent Normalization: Implemented same normalization protocols across all MATLAB and Python models.
+- Target Image Generation: Added functionality to generate target images using the model itself by processing randomly shuffled raw SAR data.
+- Combined six variants of physics-based DNN models into a single main file to streamline adversarial attack implementation.
+- Results: All preliminary attack results are now stored in the targeted_dia_results_1 directory.
+---
 
 🚧 UNDER CONSTRUCTION 🚧 
 
