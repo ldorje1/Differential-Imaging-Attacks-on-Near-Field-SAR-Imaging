@@ -13,6 +13,6 @@
 Work in Progress... apologies!
 
 This repository contains the official implementation of  
-**“DIA: Adversarial Attack to Millimeterwave Imaging Systems based on Differential Imaging Algorithms.”**
+**“Adversarial Robustness of Millimeter-wave Imaging Algorithms”**
 
 #### 📁 All datasets and trained models (including those too large to host on GitHub) required for the attack implementation are available here: [data/files/trained-models](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P).
