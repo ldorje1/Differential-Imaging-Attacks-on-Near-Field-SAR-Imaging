@@ -1,4 +1,4 @@
-# Differential Imaging Attack (DIA): Adversarial Attack to Millimeterwave Imaging Systems based on Differential Imaging Algorithms
+# Adversarial Robustness of Millimeter-wave Imaging Algorithms
 
 ---
 <!--
