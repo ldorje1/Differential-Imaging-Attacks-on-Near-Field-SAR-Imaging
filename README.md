@@ -10,7 +10,7 @@
 - Results: All preliminary attack results are now stored in the targeted_dia_results_1 directory.
 ---
 -->
-Work in Progress... apologies
+Work in Progress... apologies!
 
 This repository contains the official implementation of  
 **“DIA: Adversarial Attack to Millimeterwave Imaging Systems based on Differential Imaging Algorithms.”**
