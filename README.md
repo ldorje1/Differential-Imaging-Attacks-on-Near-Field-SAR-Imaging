@@ -20,4 +20,4 @@ This repository contains the official implementation of
 ---
 
 ### Adversarial test bed
-![Figure 1](figures/figure1.png)
+![Figure 1](figures/adv_test_bed.svg)
