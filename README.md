@@ -10,9 +10,7 @@
 - Results: All preliminary attack results are now stored in the targeted_dia_results_1 directory.
 ---
 -->
-Work in Progress... apologies!
-
-This repository contains the official implementation of **“Adversarial Robustness of Millimeter-wave Imaging Algorithms”**
+This repository contains the official implementation of **“Adversarial Robustness of Millimeter-wave Imaging Algorithms”.**
 📁 All datasets and trained models required for the attack implementation, including files too large to host on GitHub, are available here: [data/files/trained-models](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P).
 
 ---
