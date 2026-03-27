@@ -27,21 +27,21 @@ This repository contains the official implementation of
 
 ---
 
-### Visual comparison of imaging results under the proposed target-conceal adversarial attack
+### Visual comparison of imaging results under the proposed (DIA) target-conceal adversarial attack
 <p align="center">
   <img src="figures/target_conceal_visual.png" alt="Figure 2" width="500"/>
 </p>
 
 ---
 
-### Visual comparison of imaging results under the proposed target-swap adversarial attack
+### Visual comparison of imaging results under the proposed (DIA) target-swap adversarial attack
 <p align="center">
   <img src="figures/target_swap_visual.png" alt="Figure 3" width="500"/>
 </p>
 
 ---
 
-### Visual comparison of imaging results under the random weights adversarial attack
+### Visual comparison of imaging results under (DIA) the random weights adversarial attack
 <p align="center">
   <img src="figures/random_w_visual.png" alt="Figure 4" width="500"/>
 </p>
