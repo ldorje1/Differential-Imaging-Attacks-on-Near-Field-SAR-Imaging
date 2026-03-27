@@ -24,3 +24,8 @@ This repository contains the official implementation of
 <p align="center">
   <img src="figures/adv_test_bed.svg" alt="Figure 1" width="500"/>
 </p>
+
+
+---
+
+### Visual comparison of imaging results under the proposed target-conceal adversarial attack
