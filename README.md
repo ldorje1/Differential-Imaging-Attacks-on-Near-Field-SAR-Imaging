@@ -32,4 +32,4 @@ This repository contains the official implementation of
 
 
 
-### Visual comparison of imaging results under the proposed target-swap adversarial atta
+### Visual comparison of imaging results under the proposed target-swap adversarial attack
