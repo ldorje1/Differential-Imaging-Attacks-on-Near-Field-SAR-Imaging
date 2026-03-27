@@ -19,9 +19,7 @@ This repository contains the official implementation of
 
 ---
 
-### Adversarial test bed
-![Figure 1](figures/adv_test_bed.svg)
-
+### Adversarial Milli-meter Wave testbed
 
 <p align="center">
   <img src="figures/adv_test_bed.svg" alt="Figure 1" width="500"/>
