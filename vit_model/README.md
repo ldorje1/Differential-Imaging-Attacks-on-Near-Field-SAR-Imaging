@@ -10,24 +10,7 @@ Our proposed differential imaging attack is applied to the Mobile-VIT model, whi
 (1) Because the original Mobile-ViT SAR model does not provide pretrained weights, we re-trained the network using our [synthetic SAR dataset](https://github.com/ldorje1/millisarimagenet-dataset) and the procedure described in the paper. The paper's original model information can be found [here](https://github.com/josiahwsmith10/hybrid-freehand-imaging-ViT/blob/main/get_results.ipynb). 
 -->
 
-<!--
-(2) In the original paper, the authors first applied the EMPM algorithm to obtain a coarse image estimate from the raw measurements, and then passed this estimate to Mobile-ViT for super-resolution.
-```mermaid
-flowchart LR
-    A[Raw mmWave Data] --> B[EMPM Coarse Reconstruction]
-    B --> C[Mobile-ViT Super-Resolution]
-    C --> D[High-Resolution SAR Image]
-```
--->
-<!--
-Because the EMPM implementation is not publicly available, we use MFA to generate the coarse image estimate. Our Mobile-ViT implementation is shown below:
-```mermaid
-flowchart LR
-    A[Raw mmWave Data] --> B[MFA Coarse Reconstruction]
-    B --> C[Mobile-ViT Super-Resolution]
-    C --> D[High-Resolution SAR Image]
-```
--->
+
 <!--
 ***
 ### 📁 Files Required for the Attack Implementation  
