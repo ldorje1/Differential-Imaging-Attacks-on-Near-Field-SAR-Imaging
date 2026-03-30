@@ -1,6 +1,6 @@
-# Differential Imaging (DIA) on Compressed Sensing Algortihm for Near-Field Millimeter-Wave Imaging
+#### Differential Imaging (DIA) on Compressed Sensing Algortihm for Near-Field Millimeter-Wave Imaging
 
-Run for the codes in this folder to implement DIA on Compressed Sensing Algortihm (CSA) Sparsity Bayesian
+Run for the codes in this folder to implement DIA on Compressed Sensing Algortihm (CSA) based on Sparsity Bayesian
 Recovery via Iterative Minimum (SBRIM).
 
 <!--
