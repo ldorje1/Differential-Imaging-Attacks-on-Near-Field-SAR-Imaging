@@ -1,3 +1,4 @@
+<!--
 # Differential Imaging (DI) Attacks on Near-Field SAR Imaging
 (Applied to SquiggleMilli) 
 
@@ -57,3 +58,4 @@ epoch 40, epoch 100, and epoch 300
 ***
 
 ### Attack Results 
+-->
