@@ -20,6 +20,12 @@ This repository contains the official implementation of **“Adversarial Robustn
   <img src="figures/adv_test_bed.svg" alt="Figure 1" width="500"/>
 </p>
 
+
+
+<p align="center">
+  <img src="figures/sar_image_color.png" alt="Figure 1" width="500"/>
+</p>
+
 ----
 
 #### Visual comparison of imaging results under the proposed (DIA) target-conceal adversarial attack
