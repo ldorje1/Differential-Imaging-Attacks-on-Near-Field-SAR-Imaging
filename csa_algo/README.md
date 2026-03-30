@@ -1,14 +1,14 @@
 #### Differential Imaging (DIA) on Compressed Sensing Algortihm for Near-Field Millimeter-Wave Imaging
 
 Run for the codes in this folder to implement DIA on Compressed Sensing Algortihm (CSA) based on Sparsity Bayesian
-Recovery via Iterative Minimum (SBRIM).
+Recovery via Iterative Minimum (SBRIM), [Sparse autofocus via Bayesian learning iterative maximum and applied for LASAR 3-D imaging](https://ieeexplore.ieee.org/document/6875674).
 
 <!--
 
 ### (Applied to CSA (SBRIM))
 
 Our proposed Differential Imaging Attack (DIA) is applied to the sparse imaging method: Sparsity Bayesian
-Recovery via Iterative Minimum (SBRIM) introduced in the paper: [Sparse autofocus via Bayesian learning iterative maximum and applied for LASAR 3-D imaging](https://ieeexplore.ieee.org/document/6875674 ). 
+Recovery via Iterative Minimum (SBRIM) introduced in the paper: [Sparse autofocus via Bayesian learning iterative maximum and applied for LASAR 3-D imaging](https://ieeexplore.ieee.org/document/6875674). 
 
 
 CSA method introduce in the paper is a sparse SAR imaging method that uses an explicit physics-based forward model 𝐻 and an iterative optimization solver (SBRIM) to reconstruct the scene. Instead of simple matched filtering, it searches for a reflectivity image that both fits the measured data and is sparse, which typically gives sharper targets and lower clutter/sidelobes, especially under limited or noisy apertures.
