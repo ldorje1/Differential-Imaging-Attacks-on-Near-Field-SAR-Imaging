@@ -18,6 +18,8 @@ flowchart LR
     B --> C[Mobile-ViT Super-Resolution]
     C --> D[High-Resolution SAR Image]
 ```
+-->
+<!--
 Because the EMPM implementation is not publicly available, we use MFA to generate the coarse image estimate. Our Mobile-ViT implementation is shown below:
 ```mermaid
 flowchart LR
@@ -25,7 +27,7 @@ flowchart LR
     B --> C[Mobile-ViT Super-Resolution]
     C --> D[High-Resolution SAR Image]
 ```
-
+-->
 <!--
 ***
 ### 📁 Files Required for the Attack Implementation  
