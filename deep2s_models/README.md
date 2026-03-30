@@ -1,6 +1,8 @@
-# Differential Imaging Attacks on Near-Field SAR Imaging
-### (Applied to Efficient Physics-Based 3D Learned Reconstruction Models)
+# Differential Imaging Attack (DIA) on Deep2S models for Near-Field Millimeter-Wave Imaging
 
+Run for the codes in this folder to implement DIA on Deep2S, CV-Deep2S, and Deep2S+ introduced in "[Efficient Physics-Based Learned Reconstruction Methods for Real-Time 3D Near-Field MIMO Radar Imaging](https://www.sciencedirect.com/science/article/abs/pii/S105120042300369X)".
+
+<!--
 Our proposed Differential Imaging Attack (DIA) is applied to the three models (CV-Deep2S, Deep2S, Deep2S+) introduced in the paper: "[Efficient Physics-Based Learned Reconstruction Methods for Real-Time 3D Near-Field MIMO Radar Imaging](https://www.sciencedirect.com/science/article/abs/pii/S105120042300369X)".
 
 #### Three 3D U-Net Models From the Paper (Reference)
@@ -204,7 +206,7 @@ We updated the optimization strategy for the complex gains **Aₚ** in the Deep2
 - Better gradient flow and smoother convergence.
 - The attack produces more consistent and physically realistic perturbations.
 
-
+-->
 
 
 
