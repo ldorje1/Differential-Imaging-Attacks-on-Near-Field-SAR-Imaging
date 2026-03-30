@@ -1,4 +1,9 @@
-# Differential Imaging Attacks on Near-Field SAR Imaging
+#### Differential Imaging Attack (DIA) on RMIST-Net for Near-Field Millimeter-Wave Imaging
+
+Run for the codes in this folder to implement DIA on the Range Migration (RM) kernel-based Iterative-Shrinkage Thresholding Network (RMIST-Net).
+
+<!--
+
 ***
 ### (Applied to RMIST-Net)
 Our proposed Differential Imaging Attack (DIA) is applied to the range migration (RM) kernel-based iterative-shrinkage thresholding network 9RMIST-Net), introduced in the paper: [RMIST-Net: Joint Range Migration and Sparse Reconstruction Network for 3-D mmW Imaging](https://ieeexplore.ieee.org/document/9393590). 
@@ -64,4 +69,4 @@ plt.show()
 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/RMIST-Net/figures/attacked_rmnist_net.png"
      width="800" height="800">
-
+-->
