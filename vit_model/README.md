@@ -1,8 +1,11 @@
-# Differential Imaging (DI) Attacks on Near-Field SAR Imaging
+#### Differential Imaging Attack (DIA) on ViT for Near-Field Millimeter-Wave Imaging
+
+Run for the codes in this folder to implement DIA on the Mobile-ViT model, which uses ViT archeitecture for super resoultion.
+
+<!--
+**📌 Note:**
 ### (Applied to Mobile-VIT) 
 Our proposed differential imaging attack is applied to the Mobile-VIT model, which uses VIT archeitecture for super resoultion, introduced in the paper: [“A Vision Transformer Approach for Efficient Near-Field Irregular SAR Super-Resolution.”](https://arxiv.org/pdf/2305.02074)
-
-**📌 Note:**
 
 (1) Because the original Mobile-ViT SAR model does not provide pretrained weights, we re-trained the network using our [synthetic SAR dataset](https://github.com/ldorje1/millisarimagenet-dataset) and the procedure described in the paper. The paper's original model information can be found [here](https://github.com/josiahwsmith10/hybrid-freehand-imaging-ViT/blob/main/get_results.ipynb). 
 
@@ -20,8 +23,9 @@ flowchart LR
     B --> C[Mobile-ViT Super-Resolution]
     C --> D[High-Resolution SAR Image]
 ```
+-->
 
-
+<!--
 ***
 ### 📁 Files Required for the Attack Implementation  
 Place all of the following files in the working directory before running the DI-Attack ([DIA_MobileViT_ch3_main](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/DIA_mobileVIT_ch3_main.ipynb)) scripts:
@@ -70,7 +74,7 @@ During the attack, we optimize a complex perturbation **ΔY** on `rawSAR` such t
 
 <img src="https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging/blob/main/Mobile-VIT/files/attacked_mobileViT.png"
      width="600" height="600">
-
+-->
 
 
 
