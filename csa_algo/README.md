@@ -1,7 +1,7 @@
 #### Differential Imaging (DIA) on Compressed Sensing Algortihm for Near-Field Millimeter-Wave Imaging
 
 Run for the codes in this folder to implement DIA on Compressed Sensing Algortihm (CSA) based on Sparsity Bayesian
-Recovery via Iterative Minimum (SBRIM), [Sparse autofocus via Bayesian learning iterative maximum and applied for LASAR 3-D imaging](https://ieeexplore.ieee.org/document/6875674).
+Recovery via Iterative Maximum (SBRIM), [Sparse autofocus via Bayesian learning iterative maximum and applied for LASAR 3-D imaging](https://ieeexplore.ieee.org/document/6875674).
 
 <!--
 
