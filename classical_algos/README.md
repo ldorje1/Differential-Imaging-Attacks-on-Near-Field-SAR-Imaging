@@ -1,4 +1,4 @@
-#### Differential Imaging Attack (DIA) on Classical Millimeter-wave Imaging Algorithms
+#### Differential Imaging Attack (DIA) on Classical Algortihms for Near-Field Millimeter-Wave Imaging
 
 Run for the codes in this folder to implement DIA on classical algorithms such as MFA, RMA, BPA, LIA (for irregular or non-uniform sensing apertures). 
 <!--
