@@ -47,6 +47,5 @@ This repository contains the official implementation of **“Adversarial Robustn
   <img src="figures/random_w_visual.png" alt="Figure 4" width="500"/>
 </p>
 
-
-
+----
 ### *For more details, please refer to our paper [link]*
