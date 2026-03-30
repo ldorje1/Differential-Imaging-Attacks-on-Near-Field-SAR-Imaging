@@ -1,6 +1,6 @@
 #### Differential Imaging Attack (DIA) on Classical Algortihms for Near-Field Millimeter-Wave Imaging
 
-Run for the codes in this folder to implement DIA on classical algorithms such as MFA, RMA, BPA, LIA (for irregular or non-uniform sensing apertures). 
+Run for the codes in this folder to implement DIA on classical algorithms such as MFA, RMA, BPA, LIA (for irregular or non-uniform sensing apertures [Lightweight Imaging Algorithm (**LIA**)](https://ieeexplore.ieee.org/abstract/document/9362213)). 
 <!--
 Our Differential Imaging Attack is applied to both classical and modern image reconstruction pipelines. Classical algorithms, including the Back-Projection Algorithm (**BPA**), the Range Migration Algorithm (**RMA**), and the Matched Filter Algorithm (**MFA**), can be used to reconstruct the millemeterwave images based directly on the time-domain echo data measurements. The original implementation of these algorithms is not differentiable, can not be used to obtain gradients. We re-implement them as differentiable algorithms in MATLAB based on dlarray. Automatic differentiation engine can then be exploited to calculate gradients, and gradient descent method is the used for realizing DIA. We evaluate their robustness under DIA adversarial attacks.
 
