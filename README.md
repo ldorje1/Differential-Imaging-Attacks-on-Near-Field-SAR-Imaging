@@ -48,4 +48,4 @@ This repository contains the official implementation of **“Adversarial Robustn
 </p>
 
 ----
-### For more details, please refer to our paper "*Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks*".
+### For more details, please refer to our paper, "*Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks,*" submitted to IEEE Transactions on Information Forensics and Security (TIFS) and currently under consideration.
