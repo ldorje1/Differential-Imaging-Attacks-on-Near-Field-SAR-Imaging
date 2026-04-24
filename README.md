@@ -10,15 +10,13 @@
 -->
 
 
-This repository contains the code, data-processing scripts, and experiments for:
+This repository contains the official implementation of
 
 > **Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks**  
 > Lhamo Dorje, Jordan Madden, Soamar Homsi, Xiaohua Li  
 > arXiv:2604.21774, 2026
 
 Paper: https://arxiv.org/abs/2604.21774
-
-This repository contains the official implementation of **“Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks”.**
 
 📁 All datasets and trained models required for the attack implementation, including files too large to host on GitHub, are available here: [Google Drive](https://drive.google.com/drive/u/1/folders/1gymInr98iKLn37k7IIvvssIoM6Zd3r5P).
 
@@ -62,8 +60,6 @@ This repository contains the official implementation of **“Adversarial Robustn
 ### For more details, please refer to our paper, "*Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks,*" submitted to IEEE Transactions on Information Forensics and Security (TIFS) and currently under consideration.
 -->
 
-For technical details, please refer to our paper:
-*“Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks”*
 <!--
 The manuscript has been submitted to **IEEE Transactions on Information Forensics and Security (TIFS)** and is currently under review.
 -->
